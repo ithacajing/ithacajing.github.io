@@ -1,0 +1,434 @@
+body{
+	font-family: 'Open Sans', Helvetica, sans-serif !important;
+}
+
+#titleWrapper{
+	background-color: white !important;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	padding-top:216px;
+	padding-bottom:126px;
+}
+
+#welcome{
+	/*padding-left:4em;*/
+	text-align:center;
+}
+
+#hello{
+	font-weight:bold !important;
+	font-size:38px !important;
+}
+
+#hello span{
+    color: #00356B;
+}
+
+#helloDesc{
+	font-size: 26px !important;
+    /*font-family:"Libre Baskerville", sans-serif;*/
+}
+
+#buttons{
+	text-align:center;
+	margin:40px;
+}
+
+#buttons button:hover{
+	color: #ffffff;
+    background: #00356B;
+    transition: all 0.13s linear;
+}
+
+.filter {
+    color:#00356B;
+}
+
+.filter.active{
+	color: #ffffff;
+    background: #00356B;
+}
+
+button{
+	border:none;
+	margin-left:30px !important;
+	margin-right:30px !important;
+	background-color:transparent;
+	font-size: 20px !important;
+}
+
+#Container .mix{
+	display: none;
+}
+
+#Container img{
+	width: 100%;
+}
+
+#Container{
+	margin: 0px auto;
+	margin-bottom:40px;
+	width:100%;
+	text-align:center;
+}
+
+.mix{
+	margin: 35px;
+	background-color: #D8D8D8;
+	text-align:center;
+	padding-bottom:10px;
+	vertical-align: middle !important;
+	height:auto;
+	display:inline-block;
+}
+
+@media(max-width:600px) {
+    .mix{
+        width:80%;
+    } 
+}
+
+@media(min-width:600px) {
+    .mix{
+        width:33%;
+    } 
+}
+
+@media(min-width:700px) {
+    .mix{
+        width:37%;
+    } 
+}
+
+@media(min-width:992px) {
+    .mix{
+        width:25%;
+    } 
+}
+
+.thumbnail_descrip{
+	padding-top:10px;
+}
+
+.thumbnail_descrip h4 h5{
+    color: #000000 !important;
+}
+
+#contact{
+	border-top: 1px solid rgba(0, 0, 0, .2);
+	padding:10px;
+	padding-bottom:140px;
+}
+
+#connectTitle{
+	text-align:center;
+}
+
+#textInfo img{
+	width:38.93px;
+}
+
+#textInfo p{
+	font-size: 18px;
+	padding:10px;
+}
+
+#iconInfo img{
+	width:60px;
+}
+
+
+#iconInfo p{
+	padding-top: 5px;
+	padding-left: 10px;
+	text-align:left;
+}
+
+#coffeeCup img{
+	padding-top:30px;
+	width:45%;
+}
+
+#coffeeCup{
+	text-align:right;
+}
+
+#resumeInfo img{
+	width:197px;
+	padding-left: 10px;
+}
+
+#textInfo, #iconInfo{
+	display:inline;
+}
+
+#textIcons{
+	float:left;
+}
+
+#info{
+	width:40%;
+	margin: auto;
+}
+
+footer{
+	background-color:#00356B;
+	margin:0px;
+	padding:0px;
+	color:white;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+#yqLogo{
+	width:60px;
+	height:60px;
+    
+    /*shrinking movement*/
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;    
+}
+
+.navbar{
+	height:90px;
+	border-bottom:0px solid rgba(0, 0, 0, .2) !important;
+	background-color:white;
+    opacity: .95;
+    
+    /*shrinking movement*/
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+/*shrink class begin*/
+nav.navbar.shrink {
+    height: 45px;
+    background: #1976D2 !important;
+    /*background: #ffffff !important;*/
+}
+
+nav.navbar.shrink ul{
+    padding-top: 0px;
+    font-size: 13px;
+    font-weight:bold;
+}
+
+nav.navbar.shrink a{
+   color: #ffffff !important;
+}
+
+.navbar-brand.shrink{
+	/*margin-left:160px !important;*//*this changes the horiontal position of the sight logo*/ 
+    padding-top: 6.5px;  
+}
+
+.navbar-brand.shrink #yqLogo{
+	width: 35px; 
+    height: 35px; 
+}
+
+
+/*shrink class end*/
+
+.links{
+	float:right !important;
+}
+
+ul{
+	padding-top:20px;
+	font-size: 13px;
+	font-weight:bold;
+    list-style-image: url('../img/thumbnails/arrows.svg');
+    
+    /*shrinking movement*/
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+/* change the distance between navigation items
+li{
+	margin-right: 0px !important;
+}
+*/
+nav li.navActive a{
+    color: #ffffff;
+    background-color: #00356B !important;
+    transition: all 0.4s ease;
+}
+
+.navHome.beforeShrink a{
+    color: #ffffff !important;
+    background: #00356B !important;
+    margin: 0px;
+}
+
+.navbar{
+	background:white !important;
+}
+
+#connectTitle{
+	font-size:26px;
+	margin:50px;
+}
+
+footer p{
+	margin:0;
+}
+
+.navbar-brand{
+	margin-left:150px !important;
+    
+    /*shrinking movement*/
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+ul.nav.navbar-nav{
+	margin-right:50px !important;
+}
+
+nav li a{
+	font-family: 'Noto Sans', 'Open Sans', 'Helvetica', sans-serif;
+	font-size: 18px !important;
+	font-weight: normal;
+	color: #00356B !important;
+}
+/*
+.current{
+    color:  #00356B !important;
+}
+*/
+nav.shrink li a:hover{
+	color: #ffffff !important;
+    background: #00356B !important;/*#63aaff #286dc0*/
+    transition: all 0.13s linear;
+}
+
+nav li a:hover{
+	color: #ffffff !important;
+    background: #00356B !important;
+    transition: all 0.13s linear;
+}
+
+#profilePicture img{
+	height:150px;
+}
+
+#profilePicture p{
+	text-align:right;
+	margin-bottom: 10px;
+}
+
+#profilePicture{
+	display:inline-block;
+	width:30%;
+	vertical-align:top;
+	padding-right:20px;
+}
+
+#profileText{
+	display:inline-block;
+	width:60%;
+	padding-left:20px;
+}
+
+#profileText span{
+	color: #00356B;
+    font-weight: bold;
+}
+
+#profileQuote{
+	font-size: 17px;
+    text-align:center;
+	font-family:'PT Mono', Courier, monospace;
+	/*font-style:italic;*/
+}
+#profileQuote{
+    margin-bottom: 0px;
+}
+
+#aboutWrapper{
+	background-color:transparent !important;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+#profileList{
+	padding-top:0px;
+	margin-top:0px;
+	margin-bottom: 45px;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+#profileList li{
+	margin-bottom:5px;
+}
+
+/**/
+a, a:hover{
+	text-decoration: none !important;
+}
+
+#Container a img{
+	display:block;
+	transition: all 0.23s linear;
+}
+
+#Container a:hover img{
+	opacity: 0.6;
+}
+
+#Container a{
+	color: #000000;
+}
+
+#textIcons a img{
+	transition: all 0.23s linear;
+}
+
+#textIcons a img:hover{
+	opacity: 0.6;
+}
+
+@media (max-width: 420px) {
+    ul.nav.navbar-nav{
+        margin:0px;
+        padding:0px;
+    }
+    /*.navbar-brand{
+        margin:0 !important;
+        padding-top: 0px !important;
+    }*/
+    #info{
+        width:70%;
+        margin:0px auto;
+    }
+    .jumbotron#aboutWrapper div{
+        display: block; 
+    }
+    .jumbotron#aboutWrapper div{
+        width:100%;
+        margin: 0 auto;
+    }
+    #profilePicture{
+        padding-right: 30%
+    }
+    #profileQuote{
+        padding:10px;
+    }
+    .filter{
+        padding:15px;
+    }
+    ul.nav.navbar-nav{
+        margin: 0px !important;
+    }
+    nav.navbar.shrink li{
+        background: black;
+        color: white;
+    }
+    nav li a{
+        background: black;
+        color: white !important;
+    }
+  
+}
