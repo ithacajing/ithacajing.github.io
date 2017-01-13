@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- @TODO Link the favicon via href -->
+    <!-- <link rel="icon" type="image/png" href="" size="16x16"> -->
+
+    <meta charset="UTF-8">
+    <title>Yu Qi</title>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab|Noto+Sans' rel='stylesheet' type='text/css' />
+
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/project.css" />
+
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="scripts/jquery.mixitup.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <!--Adds a tab icon-->
+    <link rel="shortcut icon" href="../img/thumbnails/yq_small.png">
+</head>
+
+<body>
+    <!--
+
+        Navigation
+
+        -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+         <a class="navbar-brand" href="../index.html"><img id="yqLogo" src="../img/thumbnails/YQ.png" alt="Yu Qi" /></a>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+                <!-- @TODO Insert your logo here 
+                <a class="navbar-brand" href="index.html"><img id="yqLogo" src="img/thumbnails/YQ.png" alt="Yu Qi" /></a>
+            -->
+
+            <!-- This is where you insert your navbar items. Class active and span current should only go around the active tab.-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#Container">Portfolio</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                    <li><a href="../YuQi_Resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--
+
+        Main Content Goes here
+
+    -->
+
+    <div class="jumbotron" id="projectHeader">
+        <div id="welcome">
+            <!-- Type your welcome message here -->
+            <h1 id="projectTitle">MyKeepon Project</h1>
+            <p id="projectDesc">Help people improve their emotional regulation skills by interacting with Keepon robot</p>
+        </div>
+
+    </div>
+
+    <div id="bcWrapper">
+        <ol class="breadcrumb">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#Container">Portfolio</a></li>
+            <li class="active">MyKeepon Project</li>
+        </ol>
+    </div>
+
+    <!-- Fill in the dots with your projects  Yessir
+        I made some of the thumbnails in orange color, but it can be changed easily if needed-->
+    <div id="mainContent">
+        <div id="overview">
+            <p><span class="overviewCategory">Time:</span> May &ndash; December 2015</p>
+            <p><span class="overviewCategory">Team:</span> Yu, advised by Dr. Malte Jung</p>
+            <p><span class="overviewCategory">Role:</span> User Researcher, Arduino Developer, Project Manager</p>
+            <p><span class="overviewCategory">Methodology:</span> Literature review, User Testing, User Interviews, Behavior Mapping, Design Thinking, Prototyping, Wizard of Oz, Arduino Programming, 3-D Printing</p>
+            <p><span class="overviewCategory">Tools:</span> Pen &amp; Paper, Arduino</p>
+            <p><span class="overviewCategory">Product:</span> A fully functional Keepon robot that we have been used to running study and collecting data. A complete exploratory human-robot interaction study</p>
+        </div>
+
+        <hr />
+
+        <div id="designObjectives">
+            <h3 class="sectionTitle">Overview</h3>
+            <p>This project was to design human-robot interactions using socially assistive robot - Keepon. The purpose of this exploratory study was to see how a robot’s “empathy behaviors” can help college students regulate their emotions.
+            </p>
+        </div>
+
+        <hr />
+
+        <div id="MyRole">
+            <h3 class="sectionTitle">My Roles and Process</h3>
+            <p>This was an individual research project with Dr. Malte Jung, and I had many roles throughout the project. My roles: 
+            </p>
+            <ol>
+                <li><strong>User Researcher:</strong> At the beginning, I studied how people express empathy behaviors to each other, and my goal was to map human behaviors to Keepon’s movement. I interviewed 4 colleagues. For each interview, I asked my interviewee to listen to a sad story of my own without any verbal expressions. In other words, my interviewees could only use their body language to express empathy to my sad story. Later, each interviewee received an in-depth interview.</br>
+                I learned different behaviors people used for expressing empathy. One example is that people might use small nods to indicate they were listening but big nods when they heard an important part of the story. Other examples included how people idly look around and how people move their bodies.</br></br></li>
+                <li><strong>Arduino Developer:</strong> I was the main developer throughout the study. I worked with the open source code and modified it for our purpose. Although I am not trained as a developer, I love solving challenging problems, and it is very rewarding to see my robot moving according to my code. With well documented online Arduino tutorials and my knowledge in C++, I was able to write reliable Arduino programs. Here is the GitHub repository for this project: <a href="https://github.com/yuqicornell/KeeponRobot" target="_blank">github.com/yuqicornell/KeeponRobot</a>.</br></br></li>
+                <li><strong>Project Manager:</strong> Later in this project, I had an undergraduate team working with me. At different stages, I defined and communicated project objectives with my team. I also coordinated the project schedule and progress between my team and advising professor. Furthermore, I oversaw the execution of each experiment session, collected information, and led regular team discussions. 
+                </li>
+            </ol>
+        </div>
+
+        <hr />
+
+        <div id="RobotBuilding">
+            <h3 class="sectionTitle">Keepon Robot</h3>
+            <p>For this study, we used an <a href="http://hennyadmoni.com/keepon/" target="_blank">open-source robot - Keepon</a>. One reason is because it has great degrees of freedom in regards to movement. We can easily simulate human behaviors with Keepon, such as nodding, shaking head,  idly looking, and breathing. Through those behaviors, Keepon is also capable of conveying human emotions, like happy, sad, excitement, etc.
+            </p>
+            <div class="sampleImages" id="keeponfreedom">
+                <figure>
+                    <img src="../img/keepon/mykeeponDOF.png" alt="Keepon movement DOF" />
+                    <figcaption><em>Fig 1. Illustration of four degrees of freedom in Keepon movement</em></figcaption>
+                </figure>
+            </div>
+            <h4 class="procedure">3D Printing</h4>
+            <p>The process of building a Keepon robot was lots of fun! I 3D printed all the parts that are needed. Then, I modified the Keepon from a <a href="http://www.mykeepon.com/" target="_blank">toy version</a> to a robot that I can program.</p>
+            <div class="sampleImages">
+                <figure>
+                    <img src="../img/keepon/3dPrint.png" alt="3d printing" />
+                    <figcaption><em>Fig 2. 3D Printer and 3D Printed Parts</em></figcaption>
+                </figure>
+            </div>
+            <div class="sampleImages" id="keeponbot">
+                <figure>
+                    <img src="../img/keepon/finishedKeepon.jpg" alt="Finished Keepon" />
+                    <figcaption><em>Fig 3. Finished Keepon robot</em></figcaption>
+                </figure>
+            </div>
+            <!--<h4 class="procedure">Define Problem</h4>
+            <p>
+                After unpacking and synthesizing our empathy findings into compelling needs and insights, we discovered that it is a common practice for restaurant staff to multitask. To minimize customer wait times, the chef often does multiple orders at once; meanwhile, there are in-person communications happening between the chef and other kitchen staff. 
+            </p>
+            <p>
+                During the contextual inquiry, a chef told us that a customized order is very error-prone. Connecting back to the multitasking practices and high-stress environment in the restaurant kitchen, we discovered that this is a great design space for us to create meaningful robot interactions. 
+            </p>-->
+        </div>
+
+        <hr />
+
+        <div id="sciencenter">
+            <h3 class="sectionTitle">Keepon’s interaction with kids in Sciencenter, Ithaca NY</h3>
+            <p>I presented our robot to children around 10 years old in Sciencenter, Ithaca. It was an educational activity of teaching children robotics, but the enthusiasm children showed towards the Keepon robot gave us great confidence moving forward. 
+            </p>
+            <div class="sampleImages scaled">
+                <figure>
+                    <img src="../img/keepon/sciencenter.jpg" alt="children interaction with Keepon" />
+                    <figcaption><em>Fig 3. Chidren interact with Keepon in Sciencenter, Ithaca</em></figcaption>
+                </figure>
+            </div>
+            <div class="sampleImages scaled">
+                <figure>
+                    <img src="../img/keepon/childrenInterface.jpg" alt="children keyboard interface" />
+                    <figcaption><em>Fig 4. Simple interface designed for children</em></figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <hr />
+
+        <div id="labStudy">
+            <h3 class="sectionTitle">Lab User Study</h3>
+            <p>We also designed user studies in laboratory setting. Experimenters controlled Keepon from another room using the Wizard of Oz method. By observing users’ behavior, the experimenter issues corresponding movement commands to Keepon. We used different psychological and behavioral measurements to evaluate the emotional responses of our participants.
+            </p>
+            <p><em>* The study has not been published, and I have omitted confidential study information in this project description.</em></p>
+            <!--<p>Illustration here:
+            </p>-->
+        </div>
+    </div>
+
+
+    <footer>
+        <p>	&copy; Yu Qi 2016</p>
+    </footer>
+
+    <script src="../main.js"></script>
+</body>
+
+</html>
