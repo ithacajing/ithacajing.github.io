@@ -1,0 +1,4975 @@
+[
+    {
+        "State": "Arkansas",
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 43,
+                "StackedGeneVarieties": null,
+                "All": 43
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 60,
+                "StackedGeneVarieties": null,
+                "All": 60
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 68,
+                "StackedGeneVarieties": null,
+                "All": 68
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 84,
+                "StackedGeneVarieties": null,
+                "All": 84
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 99,
+                "StackedGeneVarieties": null,
+                "All": 99
+            }
+        ]
+    },
+    {
+        "State": "Illinois",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 3,
+                "StackedGeneVarieties": 1,
+                "All": 17
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 12,
+                "HerbicideTolerantOnly": 3,
+                "StackedGeneVarieties": 1,
+                "All": 16
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 3,
+                "StackedGeneVarieties": 1,
+                "All": 22
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 23,
+                "HerbicideTolerantOnly": 4,
+                "StackedGeneVarieties": 1,
+                "All": 28
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 26,
+                "HerbicideTolerantOnly": 5,
+                "StackedGeneVarieties": 2,
+                "All": 33
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 6,
+                "StackedGeneVarieties": 5,
+                "All": 36
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 24,
+                "HerbicideTolerantOnly": 12,
+                "StackedGeneVarieties": 19,
+                "All": 55
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 19,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 40,
+                "All": 74
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 52,
+                "All": 80
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 10,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 59,
+                "All": 84
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 52,
+                "All": 82
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 14,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 55,
+                "All": 86
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 14,
+                "HerbicideTolerantOnly": 18,
+                "StackedGeneVarieties": 53,
+                "All": 85
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 4,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 78,
+                "All": 89
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 3,
+                "HerbicideTolerantOnly": 5,
+                "StackedGeneVarieties": 83,
+                "All": 91
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 44,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 64,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 71,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 77,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 81,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 81,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 87,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 88,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 87,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ]
+    },
+    {
+        "State": "Indiana",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 4,
+                "StackedGeneVarieties": 0.5,
+                "All": 11
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 6,
+                "StackedGeneVarieties": 0.5,
+                "All": 12
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 6,
+                "StackedGeneVarieties": 0.5,
+                "All": 13
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 1,
+                "All": 16
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 11,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 2,
+                "All": 21
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 11,
+                "HerbicideTolerantOnly": 11,
+                "StackedGeneVarieties": 4,
+                "All": 26
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 12,
+                "All": 40
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 12,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 30,
+                "All": 59
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 16,
+                "StackedGeneVarieties": 55,
+                "All": 78
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 55,
+                "All": 79
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 20,
+                "StackedGeneVarieties": 56,
+                "All": 83
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 56,
+                "All": 85
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 9,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 60,
+                "All": 84
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 2,
+                "HerbicideTolerantOnly": 10,
+                "StackedGeneVarieties": 73,
+                "All": 85
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 2,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 78,
+                "All": 88
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 63,
+                "StackedGeneVarieties": null,
+                "All": 63
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 78,
+                "StackedGeneVarieties": null,
+                "All": 78
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 83,
+                "StackedGeneVarieties": null,
+                "All": 83
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 88,
+                "StackedGeneVarieties": null,
+                "All": 88
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 87,
+                "StackedGeneVarieties": null,
+                "All": 87
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": 90
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            }
+        ]
+    },
+    {
+        "State": "Iowa",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 23,
+                "HerbicideTolerantOnly": 5,
+                "StackedGeneVarieties": 2,
+                "All": 30
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 6,
+                "StackedGeneVarieties": 1,
+                "All": 32
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 31,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 3,
+                "All": 41
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 33,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 4,
+                "All": 45
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 36,
+                "HerbicideTolerantOnly": 10,
+                "StackedGeneVarieties": 8,
+                "All": 54
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 35,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 11,
+                "All": 60
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 32,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 18,
+                "All": 64
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 19,
+                "StackedGeneVarieties": 37,
+                "All": 78
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 53,
+                "All": 84
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 14,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 57,
+                "All": 86
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 61,
+                "All": 90
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 16,
+                "StackedGeneVarieties": 61,
+                "All": 90
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 12,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 64,
+                "All": 91
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 5,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 72,
+                "All": 91
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 4,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 83,
+                "All": 95
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 59,
+                "StackedGeneVarieties": null,
+                "All": 59
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 73,
+                "StackedGeneVarieties": null,
+                "All": 73
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 75,
+                "StackedGeneVarieties": null,
+                "All": 75
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 84,
+                "StackedGeneVarieties": null,
+                "All": 84
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            }
+        ]
+    },
+    {
+        "State": "Iowa",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 23,
+                "HerbicideTolerantOnly": 5,
+                "StackedGeneVarieties": 2,
+                "All": 30
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 6,
+                "StackedGeneVarieties": 1,
+                "All": 32
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 31,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 3,
+                "All": 41
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 33,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 4,
+                "All": 45
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 36,
+                "HerbicideTolerantOnly": 10,
+                "StackedGeneVarieties": 8,
+                "All": 54
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 35,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 11,
+                "All": 60
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 32,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 18,
+                "All": 64
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 19,
+                "StackedGeneVarieties": 37,
+                "All": 78
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 53,
+                "All": 84
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 14,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 57,
+                "All": 86
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 61,
+                "All": 90
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 16,
+                "StackedGeneVarieties": 61,
+                "All": 90
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 12,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 64,
+                "All": 91
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 5,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 72,
+                "All": 91
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 4,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 83,
+                "All": 95
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 59,
+                "StackedGeneVarieties": null,
+                "All": 59
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 73,
+                "StackedGeneVarieties": null,
+                "All": 73
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 75,
+                "StackedGeneVarieties": null,
+                "All": 75
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 84,
+                "StackedGeneVarieties": null,
+                "All": 84
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            }
+        ]
+    },
+    {
+        "State": "Kansas",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 1,
+                "All": 33
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 26,
+                "HerbicideTolerantOnly": 11,
+                "StackedGeneVarieties": 1,
+                "All": 38
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 2,
+                "All": 43
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 5,
+                "All": 47
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 5,
+                "All": 54
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 23,
+                "HerbicideTolerantOnly": 30,
+                "StackedGeneVarieties": 10,
+                "All": 63
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 23,
+                "HerbicideTolerantOnly": 33,
+                "StackedGeneVarieties": 12,
+                "All": 68
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 36,
+                "StackedGeneVarieties": 21,
+                "All": 82
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 30,
+                "StackedGeneVarieties": 35,
+                "All": 90
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 24,
+                "HerbicideTolerantOnly": 29,
+                "StackedGeneVarieties": 38,
+                "All": 91
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 28,
+                "StackedGeneVarieties": 40,
+                "All": 90
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 28,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 42,
+                "All": 92
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 20,
+                "HerbicideTolerantOnly": 19,
+                "StackedGeneVarieties": 51,
+                "All": 90
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 69,
+                "All": 91
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 5,
+                "HerbicideTolerantOnly": 18,
+                "StackedGeneVarieties": 72,
+                "All": 95
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 66,
+                "StackedGeneVarieties": null,
+                "All": 66
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 80,
+                "StackedGeneVarieties": null,
+                "All": 80
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 83,
+                "StackedGeneVarieties": null,
+                "All": 83
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 87,
+                "StackedGeneVarieties": null,
+                "All": 87
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 87,
+                "StackedGeneVarieties": null,
+                "All": 87
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": 90
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 85,
+                "StackedGeneVarieties": null,
+                "All": 85
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            }
+        ]
+    },
+    {
+        "State": "Michigan",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 4,
+                "StackedGeneVarieties": 0.5,
+                "All": 12
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 2,
+                "All": 17
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 12,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 2,
+                "All": 22
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 3,
+                "All": 35
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 4,
+                "All": 33
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 20,
+                "StackedGeneVarieties": 5,
+                "All": 40
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 18,
+                "StackedGeneVarieties": 10,
+                "All": 44
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 19,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 19,
+                "All": 60
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 33,
+                "All": 72
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 20,
+                "StackedGeneVarieties": 42,
+                "All": 75
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 11,
+                "HerbicideTolerantOnly": 25,
+                "StackedGeneVarieties": 44,
+                "All": 80
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 11,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 52,
+                "All": 87
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 26,
+                "StackedGeneVarieties": 52,
+                "All": 86
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 4,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 71,
+                "All": 90
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 2,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 76,
+                "All": 93
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 50,
+                "StackedGeneVarieties": null,
+                "All": 50
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 59,
+                "StackedGeneVarieties": null,
+                "All": 59
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 72,
+                "StackedGeneVarieties": null,
+                "All": 72
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 73,
+                "StackedGeneVarieties": null,
+                "All": 73
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 75,
+                "StackedGeneVarieties": null,
+                "All": 75
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 76,
+                "StackedGeneVarieties": null,
+                "All": 76
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 81,
+                "StackedGeneVarieties": null,
+                "All": 81
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 87,
+                "StackedGeneVarieties": null,
+                "All": 87
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 84,
+                "StackedGeneVarieties": null,
+                "All": 84
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 83,
+                "StackedGeneVarieties": null,
+                "All": 83
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 85,
+                "StackedGeneVarieties": null,
+                "All": 85
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": 90
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            }
+        ]
+    },
+    {
+        "State": "Minnesota",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 28,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 2,
+                "All": 37
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 4,
+                "All": 36
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 29,
+                "HerbicideTolerantOnly": 11,
+                "StackedGeneVarieties": 4,
+                "All": 44
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 31,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 7,
+                "All": 53
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 35,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 11,
+                "All": 63
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 33,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 11,
+                "All": 66
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 28,
+                "HerbicideTolerantOnly": 29,
+                "StackedGeneVarieties": 16,
+                "All": 73
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 26,
+                "HerbicideTolerantOnly": 32,
+                "StackedGeneVarieties": 28,
+                "All": 86
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 19,
+                "HerbicideTolerantOnly": 29,
+                "StackedGeneVarieties": 40,
+                "All": 88
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 23,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 41,
+                "All": 88
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 28,
+                "StackedGeneVarieties": 48,
+                "All": 92
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 29,
+                "StackedGeneVarieties": 48,
+                "All": 93
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 19,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 47,
+                "All": 88
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 3,
+                "HerbicideTolerantOnly": 10,
+                "StackedGeneVarieties": 78,
+                "All": 91
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 2,
+                "HerbicideTolerantOnly": 10,
+                "StackedGeneVarieties": 81,
+                "All": 93
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 46,
+                "StackedGeneVarieties": null,
+                "All": 46
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 63,
+                "StackedGeneVarieties": null,
+                "All": 63
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 71,
+                "StackedGeneVarieties": null,
+                "All": 71
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 79,
+                "StackedGeneVarieties": null,
+                "All": 79
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 82,
+                "StackedGeneVarieties": null,
+                "All": 82
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 83,
+                "StackedGeneVarieties": null,
+                "All": 83
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 88,
+                "StackedGeneVarieties": null,
+                "All": 88
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            }
+        ]
+    },
+    {
+        "State": "Mississippi",
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 48,
+                "StackedGeneVarieties": null,
+                "All": 48
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 63,
+                "StackedGeneVarieties": null,
+                "All": 63
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 80,
+                "StackedGeneVarieties": null,
+                "All": 80
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 98,
+                "StackedGeneVarieties": null,
+                "All": 98
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 98,
+                "StackedGeneVarieties": null,
+                "All": 98
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 98,
+                "StackedGeneVarieties": null,
+                "All": 98
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 99,
+                "StackedGeneVarieties": null,
+                "All": 99
+            }
+        ]
+    },
+    {
+        "State": "Missouri",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 20,
+                "HerbicideTolerantOnly": 6,
+                "StackedGeneVarieties": 2,
+                "All": 28
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 23,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 1,
+                "All": 32
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 27,
+                "HerbicideTolerantOnly": 6,
+                "StackedGeneVarieties": 2,
+                "All": 34
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 32,
+                "HerbicideTolerantOnly": 9,
+                "StackedGeneVarieties": 1,
+                "All": 42
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 32,
+                "HerbicideTolerantOnly": 13,
+                "StackedGeneVarieties": 4,
+                "All": 49
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 37,
+                "HerbicideTolerantOnly": 12,
+                "StackedGeneVarieties": 6,
+                "All": 55
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 38,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 7,
+                "All": 59
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 30,
+                "HerbicideTolerantOnly": 19,
+                "StackedGeneVarieties": 13,
+                "All": 62
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 27,
+                "HerbicideTolerantOnly": 21,
+                "StackedGeneVarieties": 22,
+                "All": 70
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 23,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 37,
+                "All": 77
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 19,
+                "StackedGeneVarieties": 45,
+                "All": 79
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 27,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 36,
+                "All": 85
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 20,
+                "StackedGeneVarieties": 48,
+                "All": 86
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 5,
+                "HerbicideTolerantOnly": 16,
+                "StackedGeneVarieties": 71,
+                "All": 92
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 4,
+                "HerbicideTolerantOnly": 10,
+                "StackedGeneVarieties": 79,
+                "All": 93
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 20,
+                "HerbicideTolerantOnly": 59,
+                "StackedGeneVarieties": 16,
+                "All": 95
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 32,
+                "HerbicideTolerantOnly": 40,
+                "StackedGeneVarieties": 25,
+                "All": 97
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 63,
+                "StackedGeneVarieties": 23,
+                "All": 99
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 12,
+                "HerbicideTolerantOnly": 68,
+                "StackedGeneVarieties": 19,
+                "All": 99
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 29,
+                "StackedGeneVarieties": 51,
+                "All": 98
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 47,
+                "StackedGeneVarieties": 29,
+                "All": 98
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 47,
+                "StackedGeneVarieties": 29,
+                "All": 98
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 33,
+                "HerbicideTolerantOnly": 32,
+                "StackedGeneVarieties": 33,
+                "All": 98
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 54,
+                "StackedGeneVarieties": 38,
+                "All": 98
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 21,
+                "HerbicideTolerantOnly": 27,
+                "StackedGeneVarieties": 48,
+                "All": 96
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 62,
+                "StackedGeneVarieties": null,
+                "All": 62
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 69,
+                "StackedGeneVarieties": null,
+                "All": 69
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 72,
+                "StackedGeneVarieties": null,
+                "All": 72
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 83,
+                "StackedGeneVarieties": null,
+                "All": 83
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 87,
+                "StackedGeneVarieties": null,
+                "All": 87
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": 90
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            }
+        ]
+    },
+    {
+        "State": "Nebraska",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 24,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 2,
+                "All": 34
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 24,
+                "HerbicideTolerantOnly": 8,
+                "StackedGeneVarieties": 2,
+                "All": 34
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 34,
+                "HerbicideTolerantOnly": 9,
+                "StackedGeneVarieties": 4,
+                "All": 46
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 36,
+                "HerbicideTolerantOnly": 11,
+                "StackedGeneVarieties": 5,
+                "All": 52
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 41,
+                "HerbicideTolerantOnly": 13,
+                "StackedGeneVarieties": 6,
+                "All": 60
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 39,
+                "HerbicideTolerantOnly": 18,
+                "StackedGeneVarieties": 12,
+                "All": 69
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 37,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 15,
+                "All": 76
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 31,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 25,
+                "All": 79
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 27,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 35,
+                "All": 86
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 26,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 42,
+                "All": 91
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 45,
+                "All": 91
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 26,
+                "StackedGeneVarieties": 52,
+                "All": 93
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 20,
+                "StackedGeneVarieties": 55,
+                "All": 91
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 13,
+                "StackedGeneVarieties": 74,
+                "All": 93
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 4,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 77,
+                "All": 96
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 72,
+                "StackedGeneVarieties": null,
+                "All": 72
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 76,
+                "StackedGeneVarieties": null,
+                "All": 76
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 85,
+                "StackedGeneVarieties": null,
+                "All": 85
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 86,
+                "StackedGeneVarieties": null,
+                "All": 86
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": 90
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            }
+        ]
+    },
+    {
+        "State": "North Dakota",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 21,
+                "HerbicideTolerantOnly": 39,
+                "StackedGeneVarieties": 15,
+                "All": 75
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 29,
+                "HerbicideTolerantOnly": 34,
+                "StackedGeneVarieties": 20,
+                "All": 83
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 29,
+                "HerbicideTolerantOnly": 37,
+                "StackedGeneVarieties": 22,
+                "All": 88
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 24,
+                "HerbicideTolerantOnly": 34,
+                "StackedGeneVarieties": 31,
+                "All": 89
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 30,
+                "StackedGeneVarieties": 41,
+                "All": 93
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 34,
+                "StackedGeneVarieties": 37,
+                "All": 93
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 26,
+                "HerbicideTolerantOnly": 32,
+                "StackedGeneVarieties": 39,
+                "All": 97
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 17,
+                "HerbicideTolerantOnly": 36,
+                "StackedGeneVarieties": 43,
+                "All": 96
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 5,
+                "HerbicideTolerantOnly": 20,
+                "StackedGeneVarieties": 69,
+                "All": 94
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 68,
+                "All": 96
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": null,
+                "All": 22
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 49,
+                "StackedGeneVarieties": null,
+                "All": 49
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 61,
+                "StackedGeneVarieties": null,
+                "All": 61
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 74,
+                "StackedGeneVarieties": null,
+                "All": 74
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 82,
+                "StackedGeneVarieties": null,
+                "All": 82
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": 90
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 98,
+                "StackedGeneVarieties": null,
+                "All": 98
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 96,
+                "StackedGeneVarieties": null,
+                "All": 96
+            }
+        ]
+    },
+    {
+        "State": "Ohio",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 3,
+                "StackedGeneVarieties": 0.5,
+                "All": 9
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 4,
+                "StackedGeneVarieties": 0.5,
+                "All": 11
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 3,
+                "StackedGeneVarieties": 0.5,
+                "All": 9
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 3,
+                "StackedGeneVarieties": 0.5,
+                "All": 9
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 4,
+                "StackedGeneVarieties": 1,
+                "All": 13
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 9,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 2,
+                "All": 18
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 13,
+                "StackedGeneVarieties": 5,
+                "All": 26
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 9,
+                "HerbicideTolerantOnly": 12,
+                "StackedGeneVarieties": 20,
+                "All": 41
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 12,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 37,
+                "All": 66
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 35,
+                "All": 67
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 36,
+                "All": 71
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 24,
+                "HerbicideTolerantOnly": 13,
+                "StackedGeneVarieties": 37,
+                "All": 74
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 20,
+                "StackedGeneVarieties": 43,
+                "All": 76
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 16,
+                "StackedGeneVarieties": 63,
+                "All": 85
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 3,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 69,
+                "All": 86
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 48,
+                "StackedGeneVarieties": null,
+                "All": 48
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 64,
+                "StackedGeneVarieties": null,
+                "All": 64
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 73,
+                "StackedGeneVarieties": null,
+                "All": 73
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 74,
+                "StackedGeneVarieties": null,
+                "All": 74
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 76,
+                "StackedGeneVarieties": null,
+                "All": 76
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 77,
+                "StackedGeneVarieties": null,
+                "All": 77
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 82,
+                "StackedGeneVarieties": null,
+                "All": 82
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 87,
+                "StackedGeneVarieties": null,
+                "All": 87
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 83,
+                "StackedGeneVarieties": null,
+                "All": 83
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 86,
+                "StackedGeneVarieties": null,
+                "All": 86
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 85,
+                "StackedGeneVarieties": null,
+                "All": 85
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 86,
+                "StackedGeneVarieties": null,
+                "All": 86
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": 90
+            }
+        ]
+    },
+    {
+        "State": "South Dakota",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 35,
+                "HerbicideTolerantOnly": 11,
+                "StackedGeneVarieties": 2,
+                "All": 48
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 30,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 3,
+                "All": 47
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 33,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 10,
+                "All": 66
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 34,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 17,
+                "All": 75
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 28,
+                "HerbicideTolerantOnly": 30,
+                "StackedGeneVarieties": 21,
+                "All": 79
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 30,
+                "HerbicideTolerantOnly": 31,
+                "StackedGeneVarieties": 22,
+                "All": 83
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 20,
+                "HerbicideTolerantOnly": 32,
+                "StackedGeneVarieties": 34,
+                "All": 86
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 34,
+                "StackedGeneVarieties": 43,
+                "All": 93
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 30,
+                "StackedGeneVarieties": 58,
+                "All": 95
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 25,
+                "StackedGeneVarieties": 65,
+                "All": 96
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 6,
+                "HerbicideTolerantOnly": 29,
+                "StackedGeneVarieties": 60,
+                "All": 95
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 25,
+                "StackedGeneVarieties": 64,
+                "All": 96
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 9,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 62,
+                "All": 94
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 2,
+                "HerbicideTolerantOnly": 12,
+                "StackedGeneVarieties": 82,
+                "All": 96
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 3,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 80,
+                "All": 97
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 68,
+                "StackedGeneVarieties": null,
+                "All": 68
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 80,
+                "StackedGeneVarieties": null,
+                "All": 80
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 98,
+                "StackedGeneVarieties": null,
+                "All": 98
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 98,
+                "StackedGeneVarieties": null,
+                "All": 98
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 98,
+                "StackedGeneVarieties": null,
+                "All": 98
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 98,
+                "StackedGeneVarieties": null,
+                "All": 98
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 97,
+                "StackedGeneVarieties": null,
+                "All": 97
+            }
+        ]
+    },
+    {
+        "State": "Texas",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 21,
+                "HerbicideTolerantOnly": 42,
+                "StackedGeneVarieties": 9,
+                "All": 72
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 27,
+                "HerbicideTolerantOnly": 37,
+                "StackedGeneVarieties": 13,
+                "All": 77
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 37,
+                "StackedGeneVarieties": 20,
+                "All": 79
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 20,
+                "HerbicideTolerantOnly": 31,
+                "StackedGeneVarieties": 27,
+                "All": 78
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 21,
+                "HerbicideTolerantOnly": 30,
+                "StackedGeneVarieties": 33,
+                "All": 84
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 27,
+                "StackedGeneVarieties": 40,
+                "All": 85
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 42,
+                "All": 88
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 20,
+                "HerbicideTolerantOnly": 21,
+                "StackedGeneVarieties": 44,
+                "All": 85
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 20,
+                "StackedGeneVarieties": 53,
+                "All": 89
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 12,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 62,
+                "All": 91
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 33,
+                "StackedGeneVarieties": 6,
+                "All": 46
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 35,
+                "StackedGeneVarieties": 6,
+                "All": 49
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 7,
+                "HerbicideTolerantOnly": 40,
+                "StackedGeneVarieties": 4,
+                "All": 51
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 39,
+                "StackedGeneVarieties": 6,
+                "All": 53
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 10,
+                "HerbicideTolerantOnly": 40,
+                "StackedGeneVarieties": 8,
+                "All": 58
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 14,
+                "HerbicideTolerantOnly": 35,
+                "StackedGeneVarieties": 14,
+                "All": 63
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 34,
+                "StackedGeneVarieties": 18,
+                "All": 70
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 36,
+                "StackedGeneVarieties": 28,
+                "All": 80
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 31,
+                "StackedGeneVarieties": 31,
+                "All": 78
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 31,
+                "StackedGeneVarieties": 35,
+                "All": 81
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 27,
+                "StackedGeneVarieties": 51,
+                "All": 91
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 19,
+                "StackedGeneVarieties": 49,
+                "All": 86
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 11,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 58,
+                "All": 91
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 60,
+                "All": 85
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 4,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 74,
+                "All": 93
+            }
+        ]
+    },
+    {
+        "State": "Wisconsin",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 4,
+                "StackedGeneVarieties": 1,
+                "All": 18
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 11,
+                "HerbicideTolerantOnly": 6,
+                "StackedGeneVarieties": 1,
+                "All": 18
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 9,
+                "StackedGeneVarieties": 2,
+                "All": 26
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 21,
+                "HerbicideTolerantOnly": 9,
+                "StackedGeneVarieties": 2,
+                "All": 32
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 2,
+                "All": 38
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 18,
+                "StackedGeneVarieties": 6,
+                "All": 46
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 18,
+                "StackedGeneVarieties": 10,
+                "All": 50
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 19,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 22,
+                "All": 64
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 14,
+                "HerbicideTolerantOnly": 26,
+                "StackedGeneVarieties": 35,
+                "All": 75
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 27,
+                "StackedGeneVarieties": 37,
+                "All": 77
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 29,
+                "StackedGeneVarieties": 38,
+                "All": 80
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 27,
+                "StackedGeneVarieties": 41,
+                "All": 86
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 10,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 53,
+                "All": 86
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 3,
+                "HerbicideTolerantOnly": 18,
+                "StackedGeneVarieties": 63,
+                "All": 84
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 3,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 72,
+                "All": 92
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": null,
+                "StackedGeneVarieties": null,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 51,
+                "StackedGeneVarieties": null,
+                "All": 51
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 63,
+                "StackedGeneVarieties": null,
+                "All": 63
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 78,
+                "StackedGeneVarieties": null,
+                "All": 78
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 84,
+                "StackedGeneVarieties": null,
+                "All": 84
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 82,
+                "StackedGeneVarieties": null,
+                "All": 82
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 84,
+                "StackedGeneVarieties": null,
+                "All": 84
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 85,
+                "StackedGeneVarieties": null,
+                "All": 85
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 88,
+                "StackedGeneVarieties": null,
+                "All": 88
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 90,
+                "StackedGeneVarieties": null,
+                "All": 90
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 85,
+                "StackedGeneVarieties": null,
+                "All": 85
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 88,
+                "StackedGeneVarieties": null,
+                "All": 88
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 95,
+                "StackedGeneVarieties": null,
+                "All": 95
+            }
+        ]
+    },
+    {
+        "State": "U.S.",
+        "Corn": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 6,
+                "StackedGeneVarieties": 1,
+                "All": 25
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 7,
+                "StackedGeneVarieties": 1,
+                "All": 26
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 22,
+                "HerbicideTolerantOnly": 9,
+                "StackedGeneVarieties": 2,
+                "All": 34
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 11,
+                "StackedGeneVarieties": 4,
+                "All": 40
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 27,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 6,
+                "All": 47
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 26,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 9,
+                "All": 52
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 25,
+                "HerbicideTolerantOnly": 21,
+                "StackedGeneVarieties": 15,
+                "All": 61
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 21,
+                "HerbicideTolerantOnly": 24,
+                "StackedGeneVarieties": 28,
+                "All": 73
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 17,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 40,
+                "All": 80
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 17,
+                "HerbicideTolerantOnly": 22,
+                "StackedGeneVarieties": 46,
+                "All": 85
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 47,
+                "All": 86
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 49,
+                "All": 88
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 21,
+                "StackedGeneVarieties": 52,
+                "All": 88
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 5,
+                "HerbicideTolerantOnly": 14,
+                "StackedGeneVarieties": 71,
+                "All": 90
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 4,
+                "HerbicideTolerantOnly": 13,
+                "StackedGeneVarieties": 76,
+                "All": 93
+            }
+        ],
+        "Cotton": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 26,
+                "StackedGeneVarieties": 20,
+                "All": null
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 32,
+                "StackedGeneVarieties": 24,
+                "All": null
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": 13,
+                "HerbicideTolerantOnly": 36,
+                "StackedGeneVarieties": 22,
+                "All": null
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": 14,
+                "HerbicideTolerantOnly": 32,
+                "StackedGeneVarieties": 27,
+                "All": null
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": 16,
+                "HerbicideTolerantOnly": 30,
+                "StackedGeneVarieties": 30,
+                "All": null
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 27,
+                "StackedGeneVarieties": 34,
+                "All": null
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 26,
+                "StackedGeneVarieties": 39,
+                "All": null
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": 17,
+                "HerbicideTolerantOnly": 28,
+                "StackedGeneVarieties": 42,
+                "All": null
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": 18,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 45,
+                "All": null
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": 17,
+                "HerbicideTolerantOnly": 23,
+                "StackedGeneVarieties": 48,
+                "All": null
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": 15,
+                "HerbicideTolerantOnly": 20,
+                "StackedGeneVarieties": 58,
+                "All": null
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": 17,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 58,
+                "All": null
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": 14,
+                "HerbicideTolerantOnly": 17,
+                "StackedGeneVarieties": 63,
+                "All": null
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": 8,
+                "HerbicideTolerantOnly": 15,
+                "StackedGeneVarieties": 67,
+                "All": null
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": 5,
+                "HerbicideTolerantOnly": 12,
+                "StackedGeneVarieties": 79,
+                "All": null
+            }
+        ],
+        "Soybean": [
+            {
+                "year": 2000,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 54,
+                "StackedGeneVarieties": null,
+                "All": 54
+            },
+            {
+                "year": 2001,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 68,
+                "StackedGeneVarieties": null,
+                "All": 68
+            },
+            {
+                "year": 2002,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 75,
+                "StackedGeneVarieties": null,
+                "All": 75
+            },
+            {
+                "year": 2003,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 81,
+                "StackedGeneVarieties": null,
+                "All": 81
+            },
+            {
+                "year": 2004,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 85,
+                "StackedGeneVarieties": null,
+                "All": 85
+            },
+            {
+                "year": 2005,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 87,
+                "StackedGeneVarieties": null,
+                "All": 87
+            },
+            {
+                "year": 2006,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 89,
+                "StackedGeneVarieties": null,
+                "All": 89
+            },
+            {
+                "year": 2007,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2008,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 92,
+                "StackedGeneVarieties": null,
+                "All": 92
+            },
+            {
+                "year": 2009,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 91,
+                "StackedGeneVarieties": null,
+                "All": 91
+            },
+            {
+                "year": 2010,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2011,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            },
+            {
+                "year": 2012,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2013,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 93,
+                "StackedGeneVarieties": null,
+                "All": 93
+            },
+            {
+                "year": 2014,
+                "InsectResistantOnly": null,
+                "HerbicideTolerantOnly": 94,
+                "StackedGeneVarieties": null,
+                "All": 94
+            }
+        ]
+    }
+]

@@ -1,0 +1,347 @@
+body{
+    background-color: #52B95C;
+    padding-left:20px;
+
+}
+
+#bar{
+	padding-top:5%;
+}
+
+h2{
+	text-align: center;
+}
+
+
+.land, .county-boundary, .state-boundary
+{
+	fill: none;
+	stroke-width: .5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+.land
+{
+	stroke: #222;
+}
+.state-boundary
+{
+	stroke: #444;
+}
+
+.axis path,
+
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+
+.dot {
+	stroke: #000;
+}
+
+.legend rect {
+	fill:white;
+	stroke:black;
+	opacity:0.8;}
+
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+
+    color: #399;
+}
+a:hover
+{
+    border-bottom: 1px solid #399;
+}
+
+
+.pin
+{
+    pointer-events: all;
+    fill: none;
+    stroke: rgb(100, 100, 100);
+    stroke-width: 1px;
+}
+.pin:hover
+{
+    fill: #399;
+}
+
+.helperText
+{
+    font-size: .6em;
+}
+.tooltip
+{
+    font-size: 16px;
+    line-height: 1;
+    padding: .75em;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,.9);
+}
+.desc-tip{
+    font-size:16px;
+    line-height:1.5;
+    padding:.75em;
+    text-align:right;
+    color:white;
+    background-color:rgba(0,0,0,.9);
+    font-family:'Merriweather';
+}
+.state-abbr{
+    color:rgba(255,255,255,.95);
+    font-size:8pt;
+}
+
+.label
+{
+    font-size: .8em;
+    fill: #399;
+    text-anchor: end;
+}
+
+.point
+{
+    pointer-events: all;
+
+    fill: none;
+    stroke: #399;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+.point:hover
+{
+    fill: #399;
+}
+
+.year-active
+{
+    font-size: 2em;
+    font-weight: 400;
+
+    transition: all 100ms linear;
+}
+
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: normal;
+  color:white;
+  border-bottom: 1px solid white;
+}
+.title2 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.description {
+}
+#displayYear{
+  font-family: 'Oswald';
+  font-size: 100px;
+  margin: 0px;
+  color:white;
+
+}
+/*
+ * Globals
+ */
+
+body {
+  font-family: 'Oswald',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.main {
+  font-size: 18px;
+  line-height: 1.5;
+  background: #52B95C;
+}
+
+
+
+.slider-bar {
+position:relative;
+width:100px;
+height:10px;
+border:1px solid #444;
+border-radius: 5px;
+cursor:pointer;
+
+}
+
+.slider-bar .slider-slider {
+position:absolute;
+width:0%;
+height:100%;
+border-radius: 5px;
+background-color: #bbb;
+top:0px;
+left:0px;
+}
+
+.slider-bar .slider-slider .slider-toggle {
+position:absolute;
+width: 4px;
+height: 150%;
+top: -40%;
+right: -3px;
+border:1px solid #444;
+background-color: #eee;
+}
+
+.axis path,
+
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+
+.dot {
+    stroke: #000;
+}
+
+.legend rect {
+    fill:white;
+    stroke:black;
+    opacity:0.8;}
+
+
+.bar {
+    stroke: #000000;
+    fill: #addd8e;
+}
+
+.bar2 {
+    stroke: #000000;
+    fill: #0570b0;
+}
+
+.bar3 {
+    stroke: #000000;
+    fill: red;
+}
+
+.bar4 {
+    stroke: #000000;
+    fill: #ccc;
+}
+span.label {
+    color: #555555;
+}
+
+.displayYear, #displayYear {
+    float:left;
+    width:220px;
+}
+div#radioButtons{
+  float:left;
+}
+#radioButtons fieldset{
+  border: 0px solid #c0c0c0;
+  padding: 50px;
+  font-size: 28px;
+  color: white;
+  padding-right: 0px;
+}
+#radioButtons input{
+  color: rgb(255, 255, 255);
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+#radioButtons input:hover{
+  color: rgb(33, 23, 81);
+}
+#year_range{
+  margin-top:20px;
+  -webkit-appearance: none;
+  background-color: #0D253D;
+  width: 90%;
+  height:5px;
+  padding-left:5%;
+  padding-right:5%;
+  cursor:pointer;
+}
+.timeline{
+  padding-top:20px;
+  padding-right:40px;
+  float:left;
+  width:33%;
+}
+.timeline div{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  color:#353131;
+  text-align:center;
+}
+
+.map-container{
+  width:74%;
+  float:left;
+}
+.bar-container{
+  width:25%;
+  float:right;
+  background-color:rgb(82, 185, 92);
+  height:100%;
+  border-left: 1px dashed white;
+}
+.bar-label{
+  background-color:rgba(0,0,0,.5);
+  display:block;
+  padding:5px 10px;
+}
+#map{
+  width:75%;
+  margin-left:12%;
+  margin-right:13%;
+}
+.footer{
+  margin-top:40px;
+  width:100%;
+  height:120px;
+  color:rgba(255,255,255,.85);
+  font-family:'Merriweather';
+  font-size:10px;
+}
+.footer span{
+  padding-top:40px;
+}

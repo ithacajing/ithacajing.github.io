@@ -1,0 +1,10 @@
+http://www.ers.usda.gov/data-products/adoption-of-genetically-engineered-crops-in-the-us.aspx
+
+Choropleth Map: US States
+http://d3-geomap.github.io/map/choropleth/us-states/
+
+https://github.com/alignedleft/d3-book/blob/master/chapter_12/05_choropleth.html
+http://chimera.labs.oreilly.com/books/1230000000345/ch12.html#_json_meet_geojson
+
+mshafrir / states_hash.json
+https://gist.github.com/mshafrir/2646763
