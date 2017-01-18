@@ -112,28 +112,23 @@
             </p>
             <p><b>Bike Sharing Program:</b> The dataset comes from Kaggle Bike Sharing Demand competition dataset. It covers two years bike usage from January 1, 2011 to December 31, 2012. There is a train dataset contains information in first 19 days in each of the month, and a unlabeled test data contains information in the remaining days in that month. In each day, there are 24 items, each representation the usage in one hour. In this project, we use the training dataset, which provides 10,886 observations.
             </p>
-            <!--p>We hence obtained three datasets:
-            </p>
-            <ul id="stepList">
-                <li>The orbiting data from ESA astronaut Samantha Cristoforetti’s trip on the International Space Station from December 2014 to May 2015, about 200,000 data points
-                </li>
-                <li>The second dataset dataset consists of the tweets she sent during her time in the Space Station, which was drawn by using Twitter API, about 2,000 tweets
-                </li>
-                <li>The third dataset is world-50.json which was used to plot the world map.
-                </li>
-            </ul-->
+            
         </div>
 
         <hr />
 
         <div id="d3-element">
             <h3 class="sectionTitle">Design Element </h3>
-            <p><strong>Control panel:</strong> Our control panel of our application allows users to control date, time, auto-play speed, and whether to show current or all orbits of the International Space Station.
+            <p><b>Adoption of Genetically Engineered Crops in the U.S. Project:</b> There are two main components of our visualization: a map and a single­bar chart, which both react to an interactive year­range slider. We wanted to show how genetically engineered crops have been adopted in the US over the past 15 years, and we thought the best way would be to put the slider in the hands of the user and let him/her watch that progression happen across multiple dimensions. I believe we succeeded on this front: if you slide from 2000 to 2008 to 2014 it will be painfully clear what the trend has been in just about every state. Furthermore, the bar chart on the right bluntly references a similar trend ­­ the widespread adoption of Stacked­Gene varieties rather than just single­gene mutations.
+
+            The map uses a linear­scale to convert percentages to colors. The darker the color the higher the percentage. 
+
+            We used tooltips as one way of offering information to the user. If you rollover states on the map you get a specific percentage that refers to: % of GE crops in State X during Year Y. This data changes based on which crop you choose and what year you are set on. We made a
+            user’s “location” obvious by featuring Year and Crop loud and clear at the top of the page. This is very important, as it increases the clarity of the visualization and takes some of the cognitive strain off users seeking to understand the trends. There are also tooltips on the gene­type chart.
+
+            From a design standpoint, we employed flat design to create a modern looking site, using a custom CSS stylesheet and Normalize.css. We used three fonts in total: two sans­serif and one serif. Two of those, O swald a nd M erriweather, are from Google Fonts. (The other one is Helvetica). The colors are happy but muted. We used green and white as our scheme as green is a color that evokes agriculture.
             </p>
-            <p><strong>Tweet panel:</strong> This panel shows the tweets that ESA astronaut Samantha sent at a specific time and location. 
-            </p>
-            <p><strong>World map:</strong> We used the Kavrayskiy VII projection of the world map, which gives us a more accurate world map projection in 2D comparing to Equirectangular and Mercator projections. 
-            </p>
+            
             <div class="sampleImages">
                 <figure>
                     <img src="../img/d3/p2/screencapture.png" alt="Screen capture for the data visulization" />
