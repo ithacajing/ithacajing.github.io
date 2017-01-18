@@ -114,6 +114,7 @@
 
         <hr />
             <p><b>Overview:</b> We aim to expose the absurdity of the debate over GMO foods by illustrating that, in a sense, the debate has already been won: genetically engineered crops are already here, and in force. We show how the prominence of genetically modified corn and soybeans in the United States has increased dramatically in the past fifteen years. Simultaneously, we show increasing adoption of “stacked gene” varieties ­­ crops with multiple genetic changes.
+            <p>"<a href="https://www.ers.usda.gov/data-products/adoption-of-genetically-engineered-crops-in-the-us.aspx" target="_blank">The data can be found here:</a>”. </p>
             </p>
             <p><b>Visualization:</b> There are two main components of our visualization: a map and a single­bar chart, which both react to an interactive year­range slider. We wanted to show how genetically engineered crops have been adopted in the US over the past 15 years, and we thought the best way would be to put the slider in the hands of the user and let him/her watch that progression happen across multiple dimensions. I believe we succeeded on this front: if you slide from 2000 to 2008 to 2014 it will be painfully clear what the trend has been in just about every state. Furthermore, the bar chart on the right bluntly references a similar trend ­­ the widespread adoption of Stacked­Gene varieties rather than just single­gene mutations.</p>
 
@@ -146,48 +147,36 @@
 
         <hr />
             <p><b>Overview:</b> The dataset comes from Kaggle Bike Sharing Demand competition dataset. It covers two years bike usage from January 1, 2011 to December 31, 2012. There is a train dataset contains information in first 19 days in each of the month, and a unlabeled test data contains information in the remaining days in that month. In each day, there are 24 items, each representation the usage in one hour. In this project, we use the training dataset, which provides 10,886 observations.
-            <p>"<a href="https://www.kaggle.com/c/bike-sharing-demand/data" target="_blank">Data Set from The Link</a>”. </p>
+            <p>"<a href="https://www.kaggle.com/c/bike-sharing-demand/data" target="_blank">The data can be found here:</a>”. </p>
             </p>
 
             </p>
-            <p><b>Visualization:</b> There are two main components of our visualization: a map and a single­bar chart, which both react to an interactive year­range slider. We wanted to show how genetically engineered crops have been adopted in the US over the past 15 years, and we thought the best way would be to put the slider in the hands of the user and let him/her watch that progression happen across multiple dimensions. I believe we succeeded on this front: if you slide from 2000 to 2008 to 2014 it will be painfully clear what the trend has been in just about every state. Furthermore, the bar chart on the right bluntly references a similar trend ­­ the widespread adoption of Stacked­Gene varieties rather than just single­gene mutations.</p>
-
-            <p>The map uses a linear­scale to convert percentages to colors. The darker the color the higher the percentage.</p> 
-
-            <p>We used tooltips as one way of offering information to the user. If you rollover states on the map you get a specific percentage that refers to: % of GE crops in State X during Year Y. This data changes based on which crop you choose and what year you are set on. We made a
-            user’s “location” obvious by featuring Year and Crop loud and clear at the top of the page. This is very important, as it increases the clarity of the visualization and takes some of the cognitive strain off users seeking to understand the trends. There are also tooltips on the gene­type chart.</p>
-
-            <p>From a design standpoint, we employed flat design to create a modern looking site, using a custom CSS stylesheet and Normalize.css. We used three fonts in total: two sans­serif and one serif. Two of those, O swald a nd M erriweather, are from Google Fonts. (The other one is Helvetica). The colors are happy but muted. We used green and white as our scheme as green is a color that evokes agriculture.</p>
+            <p><b>Description of Mapping to Visual:</b> 
+            <p>Make the instruction friendly for users</p>
+            <p>Choose appropriate interaction method (e.g Drop-down menu, slider bar)</p>
+            <p>Keep the text consistent with each other </p>
+            <p>Highlight key elements in different font size and color</p>
+            <p>Data transformation: the time is parsing according to format we need, and some variables are changed to different names in order to show clearly in the website</p>
             </p>
 
-            <p><b>Finding:</b> The main thing we wished to expose with this visualization is how ubiquitous genetically modified crops have become in the United States. More than 90% of corn and soybeans in the USA are genetically modified, whereas twenty years ago, that number was around 10%.
-            The discussion surrounding GM crops has been somewhat contentious, with some people suggesting that Monsanto and other large­scale agriculture companies are at risk of creating a monoculture, and that modified genes could eventually lead to “super­bugs.” But another important fact should be realized here: nearly all of our corn and soybeans is genetically modified, and there have been no widespread outbreaks of disease or illness as a result. Indeed, agricultural production in the US is more efficient than ever, thanks in no small part to technological advances like gene­swapping. Many people may be surprised to know that an enormous percentage of our food is already genetically engineered, even though the public debate about the ethics and safety of this practice has not rested into consensus.</p>
-  
-            <p>There are many intriguing corollaries here. We could investigate how Monsanto political contributions have changed as their patents are put into use countrywide and their web of influence expands. We could look at genetically engineered crops in other countries, or at adoption rates of other important agricultural technologies. We could even relate the rise of GE crops to the state of world hunger­­always an engaging topic.</p>
-            
+            <p><b>Finding:</b> 
+            <p>The number changes with the hours in a day, and it is conditional to working day. There is one peak in weekends, and the peak is at the noon. There are two peaks(at the commuter time) in weekdays, and approximated the rush hours in the morning and night.</p>
+            <p>In the two years data, we could see an increasing trend across the time span. Probably bicycle rent is getting popular!</p>
+            <p> The temperature is correlated with the month in the year, which is reasonable. There is a linear relationship between temperature and average bike demand. In addition, humidity also impacts the number of bike rentals with negative correlation.  We cannot tell too much whether the wind speed is also a reason from the model graph. But obviously, people do not prefer to rent bike in windy days. Further statistical inference is needed to see whether there are significant results.</p>
+            <p>The usage is near zero in severe weather. The demand is more in summer and fall, and in clear weather. </p>
+
+           
             <div class="sampleImages">
                 <figure>
-                    <img src="images/map.jpg" alt="Screen capture for the data visulization" />
-                    <figcaption><em>Fig 1. Screenshot of the Interface</em></figcaption>
-                </figure>
-            </div>
-            <div class="sampleImages">
-                <figure>
-                    <img src="../img/d3/p2/ssdtrace.jpg" alt="SSD Trace" />
-                    <figcaption><em>Fig 2. A Map of Plotting 200,000 International Space Station (ISS)<br> Orbiting Coordinate Data Points</em></figcaption>
+                    <img src="images/bike.png" alt="SSD Trace" />
+                    <figcaption><em>Fig 2. Screenshot of the Interface<</em></figcaption>
                 </figure>
             </div>
         </div>
 
         <hr />
 
-        <div id="d3-learned">
-            <h3 class="sectionTitle">What I Learned</h3>
-            <p>This project was a more fun way of learning powerful D3.js library. We started with searching for a fun topic that we were all excited about. Going through numerous ideas, we narrowed our ideas down to ones that were both interesting and promising, which means available datasets in this context. After deciding on the direction, we quickly iterated design ideas and began to build.
-            </p>
-            <p>I also specifically learned that as we developed further into the project, I discovered that some original designs needed to be adjusted according to the time and energy constraints. In the meantime, I needed to make sure the adjusted design can still reflect the goals we had about this project, in order to deliver a product with high quality. 
-            </p>
-        </div>
+        
     </div>
 
 
