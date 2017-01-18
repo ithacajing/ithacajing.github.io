@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- @TODO Link the favicon via href -->
+    <!-- <link rel="icon" type="image/png" href="" size="16x16"> -->
+
+    <meta charset="UTF-8">
+    <title>Jing Zhang</title>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab|Noto+Sans' rel='stylesheet' type='text/css' />
+
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/project.css" />
+
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="scripts/jquery.mixitup.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <!--Adds a tab icon-->
+    <link rel="shortcut icon" href="images/name.jpg">
+</head> 
+
+<body>
+    <!--
+
+        Navigation
+
+        -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+         <a class="navbar-brand" href="../index.html"><img id="yqLogo" src="images/name.jpg" alt="Yu Qi" /></a>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+                <!-- @TODO Insert your logo here 
+                <a class="navbar-brand" href="index.html"><img id="yqLogo" src="img/thumbnails/YQ.png" alt="Yu Qi" /></a>
+            -->
+
+            <!-- This is where you insert your navbar items. Class active and span current should only go around the active tab.-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#Container">Portfolio</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                    <li><a href="../YuQi_Resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--
+
+        Main Content Goes here
+
+    -->
+
+    <div class="jumbotron" id="projectHeader">
+        <div id="welcome">
+            <!-- Type your welcome message here -->
+            <h1 id="projectTitle">A Responsive Web-based Application</h1>
+            <p id="projectDesc">
+                 Peer Learning Group Finder
+                </p>
+        </div>
+
+    </div>
+
+    <div id="bcWrapper">
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#Container">Portfolio</a></li>
+            <li class="active">Peer Learning Group Finder</li>
+        </ol>
+    </div>
+
+    <!-- Fill in the dots with your projects  Yessir
+        I made some of the thumbnails in orange color, but it can be changed easily if needed-->
+    <div id="mainContent">
+        <div id="overview">
+            <p><span class="overviewCategory">Time:</span> August &ndash; December 2015</p>
+            <p><span class="overviewCategory">Role:</span> A Responsive Web-based Database Application</p>
+            <p><span class="overviewCategory">Tools:</span>JavaScript (JQuery.js), HTML5, CSS3, Bootstrap,  Python, Flask, MySQL</p>
+            <p id="d3-demobutton"><span class="overviewCategory">Project Demos: </span>
+                        <a href="projects/crops/index.html" target="_blank"><img src="images/library.jpg" width="150px" alt="interactive demo button"></a>
+                        
+        </div>
+
+        <hr />
+
+        <div id="d3-crops">
+            <h3 class="sectionTitle">Peer Learning Group Finder </h3>
+        </div>
+
+        <hr />
+            <h4>Overview:</h4><p> The software system is the core deliverable and will consist of three primary functional components:</p><p>
+            <uL><li>Meeting Creation allows a user to create a meeting by providing meeting’s title, location, time, type, and contact. The user may provide advanced information including description and specific location details, open or closed group option, team members, and only-editable-by-creator option. For reserve-only rooms, the user will be prompted to the library-scheduling site.</li>
+            <li>Meeting Editing allows user(s) to cancel the meeting or edit all basic and advanced information of the meeting. If the meeting is marked only-editable-by-creator, the creator will be required to provide password.</li>
+            <li>Meeting Search allows users to search for meetings. Users can filter results based on basic and advanced meeting information.</li>
+            <li>API and documentation to ensure that the client can extend the software system in the future, the team will provide system documentations, which include system requirement, database ER diagram, a list of available functionalities, and RESTful API specification sheet.</li></uL>
+        </p>
+
+        <hr />
+            <h4>User Roles:</h4> <p>There will be many different people using the Peer Learning Group Finder website and thus there will be different roles associated to different users. The roles are explained here:</p><p>
+
+            <h3>Admin:</h3><p>These admin accounts will be purely limited to those individuals selected by the client. These users will have the following capabilities:</p> 
+            <uL><li>Edit any event even if it is locked and password protected</li>
+            <li>Change locked data fields on meetings (ex: will be able to modify a meeting’s creator email)</li>
+            <li>Remove any event from the system</li>
+            <li>Access more detailed data from the database (ex: statistics)</li>
+            <li>Change room data via an API call (ex: change a room from open to reserve-only)</li></uL>
+            <p>Additionally, this role will have all of the capabilities of the other two roles: Creator and Visitor.</p>
+
+
+            <h3>Creator:</h3><p>These creator users are automatically associated with an email entered when a meeting is created. Thus, a visitor is automatically promoted to Creator when they create a meeting. Creators may optionally lock their meetings passwords thus changing the capabilities of Visitors.
+            </p> 
+            <uL><li>Reset the password of a meeting they created by requesting a password reset link. Because the password will be sent to the creator email (which is unchangeable without Admin access), only the creator may reset the password of a meeting
+            </li></uL>
+            <p>Additionally, this role will have all of the capabilities of Visitors.</p>
+            </p>
+            
+            <h3>Visitor:</h3><p>All other users are automatically Visitors. Also, it should be noted that Creators have Visitor privileges when viewing meetings that they did not create.</p> 
+            <uL><li>View any meeting</li>
+            <li>Search for meetings</li>
+            <li>Create meetings (they will be promoted to Creator for that meeting)</li>
+            <li>Edit meetings (if a password is required, they must also have the password)</li>
+            <li>Cancel meetings (if a password is required, they must also have the password)</li></uL>
+
+            <hr />
+            
+            <div class="sampleImages">
+                <figure>
+                    <img src="images/map.jpg" alt="Screen capture for the data visulization" />
+                    <figcaption><em>Fig 1. Screenshot of the Interface</em></figcaption>
+                </figure>
+            </div>
+            <hr />
+
+        <div id="d3-bike">
+            <h3 class="sectionTitle">2. Bike Sharing Program </h3>
+        </div>
+
+        <hr />
+            <h4>Overview:</h4><p> The dataset comes from Kaggle Bike Sharing Demand competition dataset. It covers two years bike usage from January 1, 2011 to December 31, 2012. There is a train dataset contains information in first 19 days in each of the month, and a unlabeled test data contains information in the remaining days in that month. In each day, there are 24 items, each representation the usage in one hour. In this project, we use the training dataset, which provides 10,886 observations.
+            <p>The data can be found here: <a href="https://www.kaggle.com/c/bike-sharing-demand/data" target="_blank">https://www.kaggle.com/c/bike-sharing-demand/data</a>. </p>
+            </p>
+
+         <hr />
+            <h4>Description of Mapping to Visual:</h4> <p>
+            <uL><li>Make the instruction friendly for users</li>
+            <li>Choose appropriate interaction method (e.g Drop-down menu, slider bar)</li>
+            <li>Keep the text consistent with each other </li>
+            <li>Highlight key elements in different font size and color</li>
+            <li>Data transformation: the time is parsing according to format we need, and some variables are changed to different names in order to show clearly in the website</li></uL>
+            </p>
+         <hr />
+            <h4>Findings:</h4>
+            <p>The number changes with the hours in a day, and it is conditional to working day. There is one peak in weekends, and the peak is at the noon. There are two peaks(at the commuter time) in weekdays, and approximated the rush hours in the morning and night.</p>
+            <p>In the two years data, we could see an increasing trend across the time span. Probably bicycle rent is getting popular!</p>
+            <p> The temperature is correlated with the month in the year, which is reasonable. There is a linear relationship between temperature and average bike demand. In addition, humidity also impacts the number of bike rentals with negative correlation.  We cannot tell too much whether the wind speed is also a reason from the model graph. But obviously, people do not prefer to rent bike in windy days. Further statistical inference is needed to see whether there are significant results.</p>
+            <p>The usage is near zero in severe weather. The demand is more in summer and fall, and in clear weather. </p>
+
+           
+            <div class="sampleImages">
+                <figure>
+                    <img src="images/bike.png" alt="SSD Trace" />
+                    <figcaption><em>Fig 2. Screenshot of the Interface</em></figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <hr />
+
+        
+    </div>
+
+
+    <footer>
+        <p>	&copy; Jing Zhang 2017</p>
+    </footer>
+
+    <script src="../main.js"></script>
+</body>
+
+</html>
