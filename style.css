@@ -10,7 +10,6 @@ body{
 }
 
 #welcome{
-	/*padding-left:4em;*/
 	text-align:center;
 }
 
@@ -25,7 +24,6 @@ body{
 
 #helloDesc{
 	font-size: 26px !important;
-    /*font-family:"Libre Baskerville", sans-serif;*/
 }
 
 #buttons{
@@ -181,7 +179,7 @@ footer{
 }
 
 
-#yqLogo{
+#Logo{
 	width:60px;
 	height:60px;
     
@@ -204,7 +202,6 @@ footer{
 nav.navbar.shrink {
     height: 45px;
     background: #1976D2 !important;
-    /*background: #ffffff !important;*/
 }
 
 nav.navbar.shrink ul{
@@ -245,11 +242,6 @@ ul{
     transition: all 0.4s ease;
 }
 
-/* change the distance between navigation items
-li{
-	margin-right: 0px !important;
-}
-*/
 nav li.navActive a{
     color: #ffffff;
     background-color: #00356B !important;
@@ -293,11 +285,7 @@ nav li a{
 	font-weight: normal;
 	color: #00356B !important;
 }
-/*
-.current{
-    color:  #00356B !important;
-}
-*/
+
 nav.shrink li a:hover{
 	color: #ffffff !important;
     background: #00356B !important;/*#63aaff #286dc0*/
@@ -328,7 +316,7 @@ nav li a:hover{
 
 #profileText{
 	display:inline-block;
-	width:60%;
+	width:80%;
 	padding-left:20px;
 }
 
@@ -341,7 +329,7 @@ nav li a:hover{
 	font-size: 17px;
     text-align:center;
 	font-family:'PT Mono', Courier, monospace;
-	/*font-style:italic;*/
+	font-style:italic;
 }
 #profileQuote{
     margin-bottom: 0px;
@@ -364,7 +352,7 @@ nav li a:hover{
 	margin-bottom:5px;
 }
 
-/**/
+
 a, a:hover{
 	text-decoration: none !important;
 }
@@ -395,10 +383,7 @@ a, a:hover{
         margin:0px;
         padding:0px;
     }
-    /*.navbar-brand{
-        margin:0 !important;
-        padding-top: 0px !important;
-    }*/
+
     #info{
         width:70%;
         margin:0px auto;
