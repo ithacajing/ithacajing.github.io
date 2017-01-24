@@ -19,6 +19,7 @@ body{
 #hello{
 	font-weight:bold !important;
 	font-size:38px !important;
+	padding-bottom:36px;
 }
 
 #hello span{
