@@ -332,7 +332,8 @@ nav li a:hover{
 #profileQuote{
 	font-size: 17px;
     text-align:center;
-	font-family:'PT Mono', Courier, monospace;
+	#font-family:'PT Mono', Courier, monospace;
+	font-family: 'Slabo 27px', serif;
 }
 #profileQuote{
     margin-bottom: 0px;
