@@ -239,7 +239,7 @@ ul{
 	padding-top:20px;
 	font-size: 13px;
 	font-weight:bold;
-    list-style-image: url('../img/thumbnails/arrows.svg');
+    list-style-image: url('images/arrows.svg');
     
     /*shrinking movement*/
     -webkit-transition: all 0.4s ease;
