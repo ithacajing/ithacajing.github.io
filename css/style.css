@@ -203,7 +203,8 @@ footer{
 /*shrink class begin*/
 nav.navbar.shrink {
     height: 45px;
-    background: #1976D2 !important;
+    background: #D8D8D8 !important;
+    /*background: #1976D2 !important; */
     /*background: #ffffff !important;*/
 }
 
