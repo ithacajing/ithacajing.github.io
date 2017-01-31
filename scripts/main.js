@@ -39,7 +39,7 @@
                 var websiteContext = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1).replace("projects/", "");
                 if ($(document).scrollTop() > 100) {
                     $('nav, .navbar-brand').addClass('shrink');
-                    $('#yqLogo').attr("src", websiteContext + "img/thumbnails/YQ_shrink.png");
+                    $('#Logo').attr("src", websiteContext + "images/name1.jpg");
                     $('.navHome').removeClass('beforeShrink');
 
                     //$('#yqLogo').attr("src","img/thumbnails/yq_small.png");
