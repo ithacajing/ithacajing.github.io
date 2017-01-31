@@ -42,10 +42,9 @@
                     $('#Logo').attr("src", websiteContext + "images/name1.jpg");
                     $('.navHome').removeClass('beforeShrink');
 
-                    //$('#yqLogo').attr("src","img/thumbnails/yq_small.png");
                 } else {
                     $('nav, .navbar-brand').removeClass('shrink');
-                    $('#yqLogo').attr("src", websiteContext + "img/thumbnails/YQ.png");
+                    $('#Logo').attr("src", websiteContext + "images/name.jpg");
                     $('.navHome').addClass('beforeShrink');
                     $('.navHome').removeClass('navActive');
                 }
