@@ -44,7 +44,7 @@
 
                 } else {
                     $('nav, .navbar-brand').removeClass('shrink');
-                    $('#'Logo').attr("src", websiteContext + "images/name.jpg");
+                    $('#Logo').attr("src", websiteContext + "images/name.jpg");
                     $('.navHome').addClass('beforeShrink');
                     $('.navHome').removeClass('navActive');
                 }
