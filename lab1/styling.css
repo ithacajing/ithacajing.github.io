@@ -134,10 +134,7 @@ video#bgvideo{
 .publication a{
     color:#B31B1B;
 }
-.publication li{
-    color:#B31B1B;
-    list-style-type: disc;
-}
+
 /*Style the navigation bar using a navbar css generation*/
 .navbar-custom {
   background-color: #111111;
