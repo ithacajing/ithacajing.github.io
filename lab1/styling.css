@@ -18,14 +18,14 @@ video#bgvideo{
 -Hide the video and set picture as background (use media queries) 
 -make it spread across the whole webpage*/
 @media (max-device-width:768px){
-    body{
+    /*body{
         background: url(images/green.JPG) center center fixed;
         background-size: cover;
     }
     #bgvideo{
         display: none;
     }
-    
+    */
 
 }
 
