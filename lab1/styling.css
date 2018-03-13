@@ -8,18 +8,18 @@ body{
 -Set the video as background, make it fixed.
 -make sure it appears behind all elements.
 -make it spread across the whole webpage*/
-/*video#bgvideo{
+video#bgvideo{
     position: fixed;
     min-height: 100%;
     min-width: 100%;
     z-index: -100;
-}*/
+}
 /*Video does not work in small devices:
 -Hide the video and set picture as background (use media queries) 
 -make it spread across the whole webpage*/
 @media (max-device-width:768px){
     body{
-        background: url(https://static.pexels.com/photos/9149/pexels-photo.jpeg) center center fixed;
+        background: url(images/green.JPG) center center fixed;
         background-size: cover;
     }
     /*#bgvideo{
