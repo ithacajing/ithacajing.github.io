@@ -22,9 +22,9 @@ video#bgvideo{
         background: url(images/green.JPG) center center fixed;
         background-size: cover;
     }
-    /*#bgvideo{
+    #bgvideo{
         display: none;
-    }*/
+    }
     
 
 }
