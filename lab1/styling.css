@@ -45,6 +45,9 @@ video#bgvideo{
 #home h2{
     margin-bottom: 50px;    
 }
+#home h3{
+    font-family: 'Vollkorn', sans-serif;    
+}
 #home li{
     font-size: 20px;
 }
