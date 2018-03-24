@@ -2,7 +2,7 @@
 -Give the body element a relative position for the scrollspy to work.
 -Add a font family to the whole page */
 body{
-  font-family: 'Vollkorn', sans-serif;   
+  font-family: Arial, Helvetica, sans-serif;   
 }
 /*Video:
 -Set the video as background, make it fixed.
@@ -46,7 +46,7 @@ video#bgvideo{
     margin-bottom: 50px;    
 }
 #home h3{
-    font-family: 'Vollkorn', sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;    
 }
 #home li{
     font-size: 20px;
