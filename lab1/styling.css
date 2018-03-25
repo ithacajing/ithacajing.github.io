@@ -132,7 +132,8 @@ video#bgvideo{
     background-color: #111111;
     color: #fff;
     padding: 10px 0;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 15px;
    
 }
