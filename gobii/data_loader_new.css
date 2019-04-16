@@ -1,0 +1,20 @@
+
+h1 {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+}
+.container {
+    width: 70%;
+  }
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    color:#288039;
+}
+  
