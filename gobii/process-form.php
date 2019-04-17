@@ -24,20 +24,20 @@
         }
         else{ echo "<br>Please choose an institution."; }
     echo "<br>";
-    if(isset($_POST['enviroment']))  {
-        $selected_enviroment = $_POST['enviroment'];
+    if(isset($_POST['environment']))  {
+        $selected_environment = $_POST['environment'];
         echo "You have selected: "; 
-        echo "<b>".$selected_enviroment."</b>";
+        echo "<b>".$selected_environment."</b>";
         }
         else{ echo "<br>Please choose an enviroment."; }
     echo "<br>";
-    if(isset($_POST['version']))  {
+    if(!empty($_POST['version']))  {
         $selected_version = $_POST['version'];
         echo "You have selected: "; 
         echo "<b>".$selected_version."</b>";
         }
-        else{ echo "<br>Please choose a version."; }   
-    echo "<br>";        
+        else{ echo "<br>Please enter the version name."; }
+    echo "<br>";   
     if(!empty($_POST['projectN']))  {
         $selected_projectN = $_POST['projectN'];
         echo "You project name is: "; 
@@ -68,6 +68,13 @@
         }
         else{ echo "Please choose the dataset status."; }
     echo "<br>";  
+    if(!empty($_POST['datasetNote']))  {
+        $selected_datasetNote = $_POST['datasetNote'];
+        echo "Dataset note: "; 
+        echo "<b>".$selected_datasetNote."</b>";
+        }
+        else{ echo "<br>Please describe something specific about the Dataset."; }  
+    echo "<br>";
     if(!empty($_POST['Nsamples']))  {
         $selected_Nsamples = $_POST['Nsamples'];
         echo "Your number of samples are: "; 
@@ -110,14 +117,20 @@
         }
         else{ echo "<br>Please enter the date of dataset matrix loaded."; }  
     echo "<br>";
-    if(!empty($_POST['submitperson'])) {
+    if(!empty($_POST['submitperson']))  {
+        $selected_submitperson = $_POST['submitperson'];
+        echo "The data submitted by: "; 
+        echo "<b>".$selected_submitperson."</b>";
+        }
+        else{ echo "<br>Please enter your full name."; }
+    /*if(!empty($_POST['submitperson'])) {
         echo "The data submitted by: ";
         foreach ($_POST['submitperson'] as $select)
         {
         echo "<b>".$select."</b>";
         }
         }
-        else { echo "Please Select the person.<br/>";}
+        else { echo "Please Select the person.<br/>";}*/
     echo "<br>";
     if(!empty($_POST['datesubmitted']))  {
         $selected_datesubmitted = $_POST['datesubmitted'];
@@ -140,11 +153,11 @@
     
     // Attempt insert query execution
     $sql = "INSERT INTO tb_data_loader_new (crops, institution, enviroment, release_version, project_name, experiment_name, 
-                        dataset_name, dataset_status, number_samples, number_markers, dataset_matrix_loaded, matrix_size, 
+                        dataset_name, dataset_status, comment, number_samples, number_markers, dataset_matrix_loaded, matrix_size, 
                         date_return_vendor, date_loaded, submitted_person, date_submitted) 
-    VALUES ('$selected_crop', '$selected_institution', '$selected_enviroment', '$selected_version', '$selected_projectN', 
-            '$selected_experimentN', '$selected_datasetN', '$selected_datasetstatus', '$selected_Nsamples', '$selected_Nmarkers', 
-            '$selected_dml', '$selected_matrixsize', '$selected_datevendor', '$selected_datematrixl', '$select', '$selected_datesubmitted')";
+    VALUES ('$selected_crop', '$selected_institution', '$selected_environment', '$selected_version', '$selected_projectN', 
+            '$selected_experimentN', '$selected_datasetN', '$selected_datasetstatus', '$selected_datasetNote', '$selected_Nsamples', '$selected_Nmarkers', 
+            '$selected_dml', '$selected_matrixsize', '$selected_datevendor', '$selected_datematrixl', '$selected_submitperson', '$selected_datesubmitted')";
     if(mysqli_query($link, $sql)){
         echo "Records inserted successfully.";
     } else{

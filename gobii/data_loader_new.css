@@ -1,20 +1,65 @@
 
-h1 {
+
+h2 {
   text-align: center;
+  font-size: 36px; 
 }
 
-button {
-  width: 100%;
-}
+
 .container {
     width: 70%;
+    margin-bottom: 80px;
   }
-
-footer {
-    position: fixed;
+img {
+    height: 56px; 
+    float: left;  
+    margin-top: 15px;
+    margin-left: 20px;
+}
+h1 {
+    padding-top: 30px;
+    padding-left: 120px;
+    text-align: center; 
+}
+.header {
+    margin-top: 0px;
     height: 100px;
+    width: 100%;
+    background: #679868;
+    font-family: Libre Bakersville, serif;/*, "Times New Roman", 'DejaVu Serif', Georgia, Times, serif;*/
+    color: #EDEDE6;
+    text-shadow: 2px 2px #242D27;
+}
+
+
+button {
+    width: 100%;
+    background: #679868;
+    color: #f5f5f5;
+  
+}
+
+.footer {
+    position: fixed;
     bottom: 0;
     width: 100%;
-    color:#288039;
-}
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #679868;
+    color: #f5f5f5;
+    font-size: 24px;
+  }
+
+  .text-center {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
   
+
+
+
+
+
+
