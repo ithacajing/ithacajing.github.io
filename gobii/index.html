@@ -12,13 +12,13 @@
 </head>
 <body>
     <nav>
-                <img src="image/gobii.png" height="56" alt="">
+                <img src="image/gobii.png" height="56"  alt="">
                 <h1 class="header">GOBii Project</h1>
                 
 
 
     </nav>
-    
+    <div class="text-center">Centered content goes here</div>
     <!--<nav class="navbar px-0 mx-0" id="header">
         <a class="navbar-brand" href="#">
             <img src="assets/img/gobii.png" class="d-inline-block align-top img-responsive" height="56" alt="" /></a>
@@ -57,9 +57,13 @@
                                     <input type="radio" name="crop" id="crop7" value="groundnut"> Groundnut
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="crop" id="crop8" value="other"> Other
+                                    <input type="radio" name="crop" id="crop8" value="otherCrop"> Other
                                 </label>
                                 </div>	    
+                            </div>
+                            <div class="form-group" id="otherC">
+                                <label>The Crop's Name Is: </label>
+                                <input type="text" placeholder="Enter Crop's Name Here.." class="form-control" name="othercrop" id="othercrop">
                             </div>
                             <div class="row">
                                     <div class="col-sm-12 form-group">
@@ -74,10 +78,13 @@
                                         <input type="radio" name="institution" id="institution3" value="IRRI"> IRRI
                                     </label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="institution" id="institution4" value="Other"> Other
+                                        <input type="radio" name="institution" id="institution4" value="otherInstitution"> Other
                                     </label>
-                                    
                                     </div>	    
+                                </div>
+                                <div class="form-group" id="otherI">
+                                    <label>The Institution's Name Is: </label>
+                                    <input type="text" placeholder="Enter Institution's Name Here.." class="form-control" name="otherinstitution" id="otherinstitution">
                                 </div>
                                 <div class="row">
                                         <div class="col-sm-12 form-group">
@@ -99,7 +106,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Release Version:</label>
-                                        <input type="text" placeholder="Enter Release Version Here.." class="form-control" name="version" id="version">
+                                        <input type="text" placeholder="Enter Release Version Here: V1.5, V2.0 etc.." class="form-control" name="version" id="version">
                                  
                                     </div>
                                     <div class="form-group">
@@ -172,9 +179,21 @@
                                     </div>
 
                                     <div class="form-group">
+                                        
                                         <label>Submitted by:</label>
-                                        <input type="text" placeholder="Please Enter Your Full Name Here.." class="form-control" name="submitperson" id="submitperson">  
-                                      <!--<label for="inputCrop">Submitted by:</label>
+                                        
+                                        <div class="row">
+                                            <div class="col-sm-6 form-group">
+                                                <label>First Name</label>
+                                                <input type="text" placeholder="Enter First Name Here.." class="form-control" name="fname" id="fname" >
+                                            </div>
+                                            <div class="col-sm-6 form-group">
+                                                <label>Last Name</label>
+                                                <input type="text" placeholder="Enter Last Name Here.." class="form-control" name="lname" id="lname" >
+                                            </div>
+                                        </div>
+                                     </div> 
+                                        <!--<label>Submitted by:</label>
                                           <select class="form-control" name="submitperson[]">
                                             <option  id="submitperson" value="Claudio">Claudio</option>
                                             <option  id="submitperson" value="Faustino">Faustino</option>
@@ -184,9 +203,7 @@
                                             <option  id="submitperson" value="Roma">Roma</option>
                                             <option  id="submitperson" value="Jeff">Jeff</option>
                                             <option  id="submitperson" value="other">Other</option>
-
                                         </select>-->
-                                    </div>
                                     <div class="form-group">
                                             <label>Date submitted:</label>
                                             <input type="date" placeholder="mm/dd/yyyy" class="form-control" name="datesubmitted" id="datesubmitted">

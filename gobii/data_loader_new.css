@@ -18,10 +18,9 @@ img {
 }
 h1 {
     padding-top: 30px;
-    padding-left: 120px;
+    padding-right: 240px;
     text-align: center; 
 }
-
 .header {
     margin-top: 0px;
     height: 100px;

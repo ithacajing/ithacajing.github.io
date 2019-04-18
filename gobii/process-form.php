@@ -11,11 +11,18 @@
 
   if (isset($_POST['result'])) {
     if(isset($_POST['crop']))  {
-    $selected_crop = $_POST['crop'];
-    echo "You have selected: "; 
-    echo "<b>".$selected_crop."</b>"; 
-    }
-    else{ echo "Please choose a certain crop."; }
+        $selected_crop = $_POST['crop'];
+        echo "You have selected: "; 
+        echo "<b>".$selected_crop."</b>"; 
+        }
+        else{ echo "Please choose a certain crop."; }
+    echo "<br>";
+    if(isset($_POST['othercrop']))  {
+        $selected_othercrop = $_POST['othercrop'];
+        echo "The other crop name is: "; 
+        echo "<b>".$selected_othercrop."</b>"; 
+        }
+        else{ echo "Please enter the other crop name."; }
     echo "<br>";
     if(isset($_POST['institution']))  {
         $selected_institution = $_POST['institution'];
@@ -23,6 +30,13 @@
         echo "<b>".$selected_institution."</b>";
         }
         else{ echo "<br>Please choose an institution."; }
+    echo "<br>";
+    if(isset($_POST['otherinstitution']))  {
+        $selected_otherinstitution = $_POST['otherinstitution'];
+        echo "The other instition name is: "; 
+        echo "<b>".$selected_otherinstitution."</b>";
+        }
+        else{ echo "<br>Please enter the other institution name."; }
     echo "<br>";
     if(isset($_POST['environment']))  {
         $selected_environment = $_POST['environment'];
@@ -117,12 +131,20 @@
         }
         else{ echo "<br>Please enter the date of dataset matrix loaded."; }  
     echo "<br>";
-    if(!empty($_POST['submitperson']))  {
-        $selected_submitperson = $_POST['submitperson'];
-        echo "The data submitted by: "; 
-        echo "<b>".$selected_submitperson."</b>";
+    if(!empty($_POST['fname']))  {
+        $selected_fname = $_POST['fname'];
+        echo "The first name is: "; 
+        echo "<b>".$selected_fname."</b>";
         }
-        else{ echo "<br>Please enter your full name."; }
+        else{ echo "<br>Please enter your first name."; }
+    echo "<br>";
+    if(!empty($_POST['lname']))  {
+        $selected_lname = $_POST['lname'];
+        echo "The last name is: "; 
+        echo "<b>".$selected_lname."</b>";
+        }
+        else{ echo "<br>Please enter your last name."; }
+    echo "<br>";    
     /*if(!empty($_POST['submitperson'])) {
         echo "The data submitted by: ";
         foreach ($_POST['submitperson'] as $select)
@@ -152,12 +174,12 @@
     mysqli_get_host_info($link);
     
     // Attempt insert query execution
-    $sql = "INSERT INTO tb_data_loader_new (crops, institution, enviroment, release_version, project_name, experiment_name, 
+    $sql = "INSERT INTO tb_data_loader_new (crops, othercrop, institution, otherinstitution, enviroment, release_version, project_name, experiment_name, 
                         dataset_name, dataset_status, comment, number_samples, number_markers, dataset_matrix_loaded, matrix_size, 
-                        date_return_vendor, date_loaded, submitted_person, date_submitted) 
-    VALUES ('$selected_crop', '$selected_institution', '$selected_environment', '$selected_version', '$selected_projectN', 
+                        date_return_vendor, date_loaded, first_name, last_name, date_submitted) 
+    VALUES ('$selected_crop', '$selected_othercrop', '$selected_institution', '$selected_otherinstitution', '$selected_environment', '$selected_version', '$selected_projectN', 
             '$selected_experimentN', '$selected_datasetN', '$selected_datasetstatus', '$selected_datasetNote', '$selected_Nsamples', '$selected_Nmarkers', 
-            '$selected_dml', '$selected_matrixsize', '$selected_datevendor', '$selected_datematrixl', '$selected_submitperson', '$selected_datesubmitted')";
+            '$selected_dml', '$selected_matrixsize', '$selected_datevendor', '$selected_datematrixl', '$selected_fname', '$selected_lname', '$selected_datesubmitted')";
     if(mysqli_query($link, $sql)){
         echo "Records inserted successfully.";
     } else{
