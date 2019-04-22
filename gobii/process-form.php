@@ -3,11 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Form</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" type="text/css" href="data_loader_new.css"> 
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <h1>Thank You</h1>
-    <p>Here is the information you have submitted:</p>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="" class="logo"><img src="image/gobii.png" /></a>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="dashboard.html">Dashboard</a></li>
+                  <li><a href="d3.html">D3 Chart</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    <div class="container" id="formbody">
+    <h2>Thank You For Your Form</h2>
+    <p style="font-size:20px;"><b>Here is the information you have submitted:</b></p>
 <?php
+
+//var_dump($_REQUEST);
+$selected_crop = '';
+$selected_othercrop = '';
+$selected_institution = '';
+$selected_otherinstitution = '';
+$selected_environment = '';
+$selected_version = '';
+$selected_projectN = '';
+$selected_experimentN = '';
+$selected_datasetN = '';
+$selected_datasetstatus = '';
+$selected_datasetNote = '';
+$selected_Nsamples = '';
+$selected_Nmarkers = '';
+$selected_dml = '';
+$selected_matrixsize = '';
+$selected_datevendor = '';
+$selected_datematrixl = '';
+$selected_fname = '';
+$selected_lname = '';
+$selected_datesubmitted = '';
 
   if (isset($_POST['result'])) {
     if(isset($_POST['crop']))  {
@@ -15,21 +61,27 @@
         echo "You have selected: "; 
         echo "<b>".$selected_crop."</b>"; 
         }
-        else{ echo "Please choose a certain crop."; }
+        else{ 
+            $selected_crop = '';
+            echo "Please choose a certain crop."; 
+    }
     echo "<br>";
     if(isset($_POST['othercrop']))  {
         $selected_othercrop = $_POST['othercrop'];
         echo "The other crop name is: "; 
         echo "<b>".$selected_othercrop."</b>"; 
         }
-        else{ echo "Please enter the other crop name."; }
+        else{ $selected_othercrop = '';
+            echo "Please enter the other crop name."; 
+        }
     echo "<br>";
     if(isset($_POST['institution']))  {
         $selected_institution = $_POST['institution'];
         echo "You have selected: "; 
         echo "<b>".$selected_institution."</b>";
         }
-        else{ echo "<br>Please choose an institution."; }
+        else{ $selected_institution = '';
+            echo "<br>Please choose an institution."; }
     echo "<br>";
     if(isset($_POST['otherinstitution']))  {
         $selected_otherinstitution = $_POST['otherinstitution'];
@@ -143,7 +195,9 @@
         echo "The last name is: "; 
         echo "<b>".$selected_lname."</b>";
         }
-        else{ echo "<br>Please enter your last name."; }
+        else{  $selected_lname = '';
+            echo "<br>Please enter your last name."; 
+        }
     echo "<br>";    
     /*if(!empty($_POST['submitperson'])) {
         echo "The data submitted by: ";
@@ -159,20 +213,24 @@
         echo "The submitted date is: ";
         echo "<b>".$selected_datesubmitted."</b>";
         }
-        else{ echo "<br>Please enter the submitted date."; }
+        else{
+            $selected_datesubmitted = '';
+            echo "<br>Please enter the submitted date."; }
     echo "<br>";    
     }
     //connect to database
     $link = mysqli_connect("localhost", "root", "", "Gobii_data_loader");
+    //$db_connection = pg_connect("host=localhost dbname=cbsugobiixvm09.biohpc.cornell.edu:8081 user=appuser password=g0b11isw3s0m3");
  
     // Check connection
     if($link === false){
         die("ERROR: Could not connect. " . mysqli_connect_error());
     } 
     // Print host information
-    echo "Connect Successfully. Host info: " . 
-    mysqli_get_host_info($link);
+   // echo "Connect Successfully. Host info: " . 
+    //mysqli_get_host_info($link);
     
+
     // Attempt insert query execution
     $sql = "INSERT INTO tb_data_loader_new (crops, othercrop, institution, otherinstitution, enviroment, release_version, project_name, experiment_name, 
                         dataset_name, dataset_status, comment, number_samples, number_markers, dataset_matrix_loaded, matrix_size, 
@@ -181,12 +239,22 @@
             '$selected_experimentN', '$selected_datasetN', '$selected_datasetstatus', '$selected_datasetNote', '$selected_Nsamples', '$selected_Nmarkers', 
             '$selected_dml', '$selected_matrixsize', '$selected_datevendor', '$selected_datematrixl', '$selected_fname', '$selected_lname', '$selected_datesubmitted')";
     if(mysqli_query($link, $sql)){
-        echo "Records inserted successfully.";
+        echo "<div id='php_msg'><p>Records inserted successfully.</p>
+        <p> <a href='index.html'>Go back to the Form</a></p>
+        </div>";
     } else{
         echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
-}
+    }
+
+    // thank you modal show
+    //header("Location: index.html");
+
    
 ?>
-    
+</div>
+<div class="footer">
+    <p class="text-center">GOBII © 2019</p> 
+                   
+</div>    
 </body>
 </html>
