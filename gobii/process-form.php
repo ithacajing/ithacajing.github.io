@@ -29,7 +29,7 @@
             </div>
           </div>
     <div class="container" id="formbody">
-    <h2>Thank You For Your Form</h2>
+    <h2>Thank You For Your Submission</h2>
     <p style="font-size:20px;"><b>Here is the information you have submitted:</b></p>
 <?php
 

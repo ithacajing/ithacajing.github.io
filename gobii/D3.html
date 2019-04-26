@@ -9,6 +9,21 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="data_loader.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+  <style>
+    .axis .domain {
+      display: none;
+    }
+    /*form {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }*/
+    .option{
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
    <!--<nav>
@@ -28,7 +43,7 @@
               </div>
               <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.html">Form</a></li>
                   <li><a href="dashboard.html">Dashboard</a></li>
                   <li><a href="D3.html">D3 Chart</a></li>
                 </ul>
@@ -38,10 +53,224 @@
                   
 
     <div class="container" id="formbody">   
-        <h2 class="well">D3 Visualization Dashboard</h2>
+        <h2 class="well">D3 Visualization</h2>
         
     </div>
+   <div class="container">
+     <div class="option">
+    <form>
+        <label><input type="radio" name="mode" value="grouped" checked> Grouped</label>
+        <label><input type="radio" name="mode" value="stacked"> Stacked</label>
+      </form>
+    </div>
+      <svg width="960" height="500"></svg>
+      <script>
+    
+      var svg = d3.select("svg"),
+        margin = {top: 20, right: 20, bottom: 130, left: 40},
+        width = +svg.attr("width") - margin.left - margin.right,
+        height = +svg.attr("height") - margin.top - margin.bottom,
+        g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    
+      var x0 = d3.scaleBand()
+      .rangeRound([0, width])
+      .paddingInner(0.2);
+    
+      var x1 = d3.scaleBand()
+      .padding(0.05);
+    
+      var y = d3.scaleLinear()
+      .rangeRound([height, 0]);
+    
+      var z = d3.scaleOrdinal()
+      .range(["#9EC651", "#5FBDE1", "#D22F32", "#9a83ad", "#ffd500", "#087264"]);
+    
+      //d3.csv('data4.csv', (error, data) => {
+    d3.csv('crop.csv', (error, data) => {
+    
+        if (error) throw error;
+    
+        // Nest stock values by symbol.
+        var dataByYear = d3.nest()
+          .key(d => { return d.symbol; })
+          .key(d => { return d.date; })
+           
+            .rollup(v => {
+              //return d3.sum(v, d => { return d.price; });
+              return v.length;
+            })
+            .entries(data);
+    
+   //console.log(dataByYear);
+    
+        dataByYear.forEach( y => {
+    
+          y.year = y.key;
+          delete y.key;
+    
+          y.values.forEach(d => {
+            d.symbol = d.key;
+            d.sum_price = +d.value;
+            delete d.key;
+            delete d.value;
+          });
+    
+          y.values.sort( (a, b) => {
+            return b.sum_price - a.sum_price;
+          });
+    
+        });
+    //console.log(dataByYear);
+    
+        let symbolList = dataByYear[0].values.map(d => { return d.symbol; });
+       // symbolList = ["2019Q2", "2019Q1", "2018Q4", "2018Q3", "2018Q2", "2018Q1", "2017Q4", "2017Q3", "2017Q2", "2017Q1"];
+       symbolList = ["Q1 2019", "Q4 2018", "Q3 2018", "Q1 2018", "Q4 2017"];
+    
+        let yearList = dataByYear.map(d => { return d.year; });
+    
+        x0.domain(yearList);
+        x1.domain(symbolList).rangeRound([0, x0.bandwidth()]);
+        y.domain([0, d3.max(dataByYear, d => {return d3.max(d.values, el => { return el.sum_price; }); })]).nice();
+        z.domain(symbolList);
+    
+        var year = g.append("g")
+        .selectAll("g")
+        .data(dataByYear)
+        .enter().append("g")
+        .attr("transform", d => { return "translate(" + x0(d.year) + ",0)"; })
+    
+        var rect = year.selectAll("rect")
+        .data( d => { return d.values; })
+        .enter().append("rect")
+        .attr("y", height)
+        .attr("width", x0.bandwidth())
+        .attr("height", 0);
+        /*.on("mouseover", function() { tooltip.style("display", null); })
+        .on("mouseout", function() { tooltip.style("display", "none"); })
+        .on("mousemove", function(d) {
+          console.log(d.symbol);
+          var xPosition = d3.mouse(this)[0] - 5;
+          var yPosition = d3.mouse(this)[1] - 5;
+          tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+          tooltip.select("text").text(d.symbol-d.sum_price);
+          });*/
+        
+    
+        let drawGroupedBars = () => {
+          rect.transition()
+          .duration(500)
+          .delay( (d, i) => { return i * 10; })
+          .attr("x", d => { return x1(d.symbol); })
+          .attr("y", d => { return y(d.sum_price); })
+          .attr("width", x1.bandwidth())
+          .attr("height", d => { return height - y(d.sum_price); })
+          .attr("fill", d => { return z(d.symbol); });
+    
+        }
+    
+        let drawAxis = () => {
+          g.append("g")
+          .attr("class", "axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(d3.axisBottom(x0));
+    
+          g.append("g")
+          .attr("class", "axis")
+          .call(d3.axisLeft(y).ticks(null, "s"))
+          .append("text")
+          .attr("x", 2)
+          .attr("y", y(y.ticks().pop()) + 0.5)
+          .attr("dy", "0.32em")
+          .attr("fill", "#000")
+          .attr("font-weight", "bold")
+          .attr("text-anchor", "start")
+          .text("Count");
+        }
+    
+        let drawLegend = (data) => {
+          var legend = g.append("g")
+          .attr("font-family", "sans-serif")
+          .attr("font-size", 10)
+          .attr("text-anchor", "end")
+          .selectAll("g")
+          .data(data)
+          .enter().append("g")
+          .attr("transform", (d, i) => { return "translate(0," + i * 20 + ")"; });
+    
+          legend.append("rect")
+          .attr("x", width - 19)
+          .attr("width", 19)
+          .attr("height", 19)
+          .attr("fill", z);
+    
+          legend.append("text")
+          .attr("x", width - 24)
+          .attr("y", 9.5)
+          .attr("dy", "0.32em")
+          .text( d => { return d; });
+        }
+    
+        drawGroupedBars();
+        drawAxis();
+        drawLegend(symbolList);
+    
+        // Prep the tooltip bits, initial display is hidden
+    var tooltip = svg.append("g")
+      .attr("class", "tooltip")
+      .style("display", "none");
+        
+    tooltip.append("rect")
+      .attr("width", 30)
+      .attr("height", 20)
+      .attr("fill", "white")
+      .style("opacity", 0.5);
+    
+    tooltip.append("text")
+      .attr("x", 15)
+      .attr("dy", "1.2em")
+      .style("text-anchor", "middle")
+      .attr("font-size", "12px")
+      .attr("font-weight", "bold");
+      d3.selectAll("input").on("change", change);
 
+var timeout = setTimeout( () => {
+  d3.select("input[value=\"grouped\"]").property("checked", true).each(change);
+}, 2000);
+
+function change() {
+  clearTimeout(timeout);
+  if (this.value === "grouped") transitionGrouped();
+  else transitionStacked();
+}
+
+function transitionGrouped() {
+
+  rect.transition()
+  .duration(500)
+  .delay( (d, i) => { return i * 10; })
+  .attr("x", d => { return x1(d.symbol); })
+  .attr("width", x1.bandwidth())
+  .transition()
+  .attr("y", d => { return y(d.sum_price); })
+  .attr("height", d => { return height - y(d.sum_price); });
+}
+
+function transitionStacked() {
+
+  rect.transition()
+  .duration(500)
+  .delay( (d, i) => { return i * 10; })
+  .attr("y", d => { return y(d.sum_price); })
+  .attr("height", d => { return height - y(d.sum_price); })
+  .transition()
+  .attr("x", d => { return x0(d.symbol); })
+  .attr("width", x0.bandwidth());
+}
+
+   });
+    </script>
+</div> 
+    
 <div class="footer">
     <p class="text-center">GOBII © 2019</p> 
                    
