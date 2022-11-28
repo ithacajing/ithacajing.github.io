@@ -1,0 +1,165 @@
+html {
+	position: relative;
+	min-height: 100%
+}
+
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 40px;
+}
+.navbar{ 
+    background-color: #679868;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px; 
+}
+
+#formbody {
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 110px;
+  }
+
+.well{
+    margin-bottom: 20px;
+}
+img {
+    height: 56px; 
+    float: left;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+h1 {
+    padding-top: 30px;
+    padding-right: 240px;
+    text-align: center; 
+}
+/*.header {
+    margin-top: 0px;
+    height: 100px;
+    width: 100%;
+    background: #679868;
+    font-family: Libre Bakersville, serif;, "Times New Roman", 'DejaVu Serif', Georgia, Times, serif;
+    color: #EDEDE6;
+    text-shadow: 2px 2px #242D27;
+}*/
+
+.navbar .navbar-nav > li > a{
+    font-size: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.navbar .navbar-nav > li > a:hover {
+    color: black;
+}
+
+.mybutton {
+    width: 100%;
+}
+
+.footer {
+    /*position: fixed;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #679868;
+    color: #f5f5f5;
+    font-size: 24px;
+  }
+
+  .text-center {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .logo img {
+    width: 100% \9; /*Force IE10 and below to size SVG images correctly*/
+    max-width: 100%;
+    }
+    
+    .mx-auto.d-sm-flex.d-block.flex-sm-nowrap {
+        text-align: center;
+    }
+
+    @media (max-width:480px) { 
+    .logo img {
+        width: 70% \9; /*Force IE10 and below to size SVG images correctly*/
+        max-width: 70% !important;
+    }
+    }
+    
+    @media (max-width:400px) { 
+    .logo img {
+        width: 75% \9; /*Force IE10 and below to size SVG images correctly*/
+        max-width: 75%;
+    }
+    }
+    
+    @media (max-width:385px) { 
+    .logo img {
+        width: 70% \9; /*Force IE10 and below to size SVG images correctly*/
+        max-width: 70%;
+    }
+    }
+    
+    @media (max-width:345px) { 
+    .logo img {
+        width: 65% \9; /*Force IE10 and below to size SVG images correctly*/
+        max-width: 65%;
+    }
+    }
+    @media (max-width:335px) { 
+        .logo img {
+            width: 60% \9; /*Force IE10 and below to size SVG images correctly*/
+            max-width: 60%;
+        }
+        }
+        
+    @media (max-width:325px) { 
+        .logo img {
+            width: 55% \9; /*Force IE10 and below to size SVG images correctly*/
+            max-width: 55%;
+        }
+        }
+        
+    @media (max-width:315px) { 
+        .logo img {
+            width: 50% \9; /*Force IE10 and below to size SVG images correctly*/
+            max-width: 50%;
+        }
+        }
+
+
+ .error {
+            border: 2px solid red;
+            padding:4px;
+}
+
+#php_msg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+table.borderless td,table.borderless th{
+    border: none !important;
+}
+
+.table-borderless > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}

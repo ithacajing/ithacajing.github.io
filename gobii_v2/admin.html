@@ -1,0 +1,4239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Loading Tracking</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" type="text/css" href="data_loader_new.css"> 
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="data_loader.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/1.0.7/css/responsive.dataTables.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css" type="text/css" />
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/1.0.7/js/dataTables.responsive.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>
+</head>
+<body>
+   <!--<nav>
+                <img src="image/gobii.png" height="56"  alt="">
+                <h1 class="header">GOBii Project</h1>
+    </nav>-->
+    <!--<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        -->
+    <div class="navbar navbar-default navbar-static-top " role="navigation">
+	    <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed ml-auto hidden-sm-up float-xs-right" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="" class="logo"><img src="image/gobii.png" /></a>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">Form</a></li>
+                  <!--<li><a href="dashboard.html">Dashboard</a></li>-->
+                  <li><a href="d3.html">D3 Dashboard</a></li>
+                  <li><a href="admin.php">Data Table</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+                  
+    
+    <div class="container">  
+        <br>
+       
+        <h2 class="well" >Data Loading Tracking Data Table</h2>
+   
+    	<br><br> 
+        
+        
+            <div class="row">
+                    <table id="gobii_data" class="display responsive" style="width:100%"><thead>
+                    <tr>
+                        <th class='all'>ID</th>
+                        <th class='all'>Crops</th>
+                        <th class='none'>Other Crop</th>
+                        <th class='all'>Institution</th>
+                        <th class='none'>Other Institution</th>
+                        <th class='all'>Environment</th>
+                        <th class='none'>Release Version</th>
+                        <th class='all'>Project Name</th>
+                        <th class='none'>Experiment Name</th>
+                        <th class='all'>Dataset Name</th>
+                        <th class='none'>Dataset Status</th>
+                        <th class='all'>Comment</th>
+                        <th class='none'>Number Samples</th>
+                        <th class='all'>Number Makers</th>
+                        <th class='none'>Dataset Matrix Loaded</th>
+                        <th class='all'>Matrix Size</th>
+                        <th class='none'>Date Return Vendor</th>
+                        <th class='all'>Date Loaded</th>
+                        <th class='none'>First Name</th>
+                        <th class='all'>Last Name</th>
+                        <th class='all'>Date Submitted</th>
+                        <th class='all'>Year Quarter</th>
+  
+                    </tr>
+                    </thead><tbody>
+                        <tr>
+                        <td>2</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test and Pilot1.1</td>
+                        <td>1.1</td>
+                        <td>PT08MSBF </td>
+                        <td>PT08MSBF-E01-Illumina_Infinium </td>
+                        <td>WAMI: PT08MSBF-E01-Illumina_Infinium-D01 </td>
+                        <td></td>
+                        <td></td>
+                        <td>288</td>
+                        <td>91</td>
+                        <td> </td>
+                        <td>40.3</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>3</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test and Pilot1.1</td>
+                        <td>1.1</td>
+                        <td>PT08MSBF </td>
+                        <td>PT08MSBF-E02-Dart_silico </td>
+                        <td>WAMI: PT08MSBF-E02-Dart_silico-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>294</td>
+                        <td>2</td>
+                        <td> </td>
+                        <td>0.643</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>4</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test and Pilot1.1</td>
+                        <td>1.1</td>
+                        <td>CIMCOG11 </td>
+                        <td>CIMCOG11-E01 </td>
+                        <td>CIMCOG 35K Axiom Array</td>
+                        <td></td>
+                        <td></td>
+                        <td>60</td>
+                        <td>35</td>
+                        <td> </td>
+                        <td>6.625</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>5</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.1</td>
+                        <td>1.1</td>
+                        <td>HW16QTAD </td>
+                        <td>HW16QTAD-E01 </td>
+                        <td>HW16QTAD-E01-KSU_GBS-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>300</td>
+                        <td>34</td>
+                        <td> </td>
+                        <td>22.586</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>6</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.1</td>
+                        <td>1.1</td>
+                        <td>PT16GSBM </td>
+                        <td>PT16GSBM-E01 </td>
+                        <td>PT16GSBM-E01-KSU_GBS-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>181</td>
+                        <td>34</td>
+                        <td> </td>
+                        <td>12.809</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>7</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.1</td>
+                        <td>1.1</td>
+                        <td>PT16GSBM </td>
+                        <td>PT16GSBM-E02 </td>
+                        <td>PT16GSBM-E02-KSU_GBS-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>977</td>
+                        <td>34</td>
+                        <td> </td>
+                        <td>60.193</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>8</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test and Pilot 1.1</td>
+                        <td>1.1</td>
+                        <td>BW13GSBL </td>
+                        <td>BW13GSBL-E01-GbS_PstI_MspI </td>
+                        <td>BW13GSBL-E01-GbS_PstI_MspI-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>7</td>
+                        <td>34</td>
+                        <td> </td>
+                        <td>517.058</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>9</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.2 and Pilot 1.3</td>
+                        <td></td>
+                        <td>BW14GSBL </td>
+                        <td>BW14GSBL-E01-GbS_PstI_MspI </td>
+                        <td>BW14GSBL-E01-GbS_PstI_MspI-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>9</td>
+                        <td>34</td>
+                        <td> </td>
+                        <td>607.668</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>10</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.2</td>
+                        <td>1.2</td>
+                        <td>BW15GSBL </td>
+                        <td>BW15GSBL-E01-GbS_PstI_MspI </td>
+                        <td>BW15GSBL-E01-GbS_PstI_MspI-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>9</td>
+                        <td>34</td>
+                        <td> </td>
+                        <td>635.212</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>11</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.2</td>
+                        <td>1.2</td>
+                        <td>BW16GSBL </td>
+                        <td>BW13GSBL-E01-GbS_PstI_MspI </td>
+                        <td>BW16GSBL-E01-GbS_PstI_MspI-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>9</td>
+                        <td>34</td>
+                        <td> </td>
+                        <td>657.098</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>12</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.3</td>
+                        <td>1.3</td>
+                        <td>DW17MSAC </td>
+                        <td>DW17MSAC-E01-KASP </td>
+                        <td>DW17MSAC-E01-KASP-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>6</td>
+                        <td>52</td>
+                        <td> </td>
+                        <td>0.54</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>13</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>BW17PVSD </td>
+                        <td>BW17PVSD-E01 </td>
+                        <td>M50IBWSN</td>
+                        <td></td>
+                        <td></td>
+                        <td>856</td>
+                        <td>52</td>
+                        <td> </td>
+                        <td>0.1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>14</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.1</td>
+                        <td>1.1</td>
+                        <td>SeeD Iranian landraces </td>
+                        <td>SeeD Iranian landraces-E01-DArT </td>
+                        <td>SeeD Iranian landraces-E01-DArT-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>2442</td>
+                        <td>102</td>
+                        <td> </td>
+                        <td>491.291</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>15</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.1</td>
+                        <td>1.1</td>
+                        <td>SeeD Mexican landraces </td>
+                        <td>SeeD Mexican landraces-E01-DArT </td>
+                        <td>SeeD Mexican landraces-E01-DArT-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>8584</td>
+                        <td>102</td>
+                        <td> </td>
+                        <td>1739.53</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>16</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.3</td>
+                        <td>1.3</td>
+                        <td>HW15YYSD </td>
+                        <td>HW15YYSD_Illumina_Goldengate-E01 </td>
+                        <td>HW15YYSD_Illumina_Goldengate-E01-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>815</td>
+                        <td>92</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>17</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Test 1.4</td>
+                        <td>1.4</td>
+                        <td>HW16YYAD </td>
+                        <td>HW16YYAD_Illumina_Goldengate-E01 </td>
+                        <td>HW16YYAD_Illumina_Goldengate-E01-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>468</td>
+                        <td>92</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>18</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td> </td>
+                        <td> </td>
+                        <td>WL18SD-E01-D02</td>
+                        <td></td>
+                        <td></td>
+                        <td>1951</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>19</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-STS-E00001 </td>
+                        <td>WC18AU-B02-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>230</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.025</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>20</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-STS-E00002 </td>
+                        <td>WC18AU-E03-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>415</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.031</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>21</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>WC18AU </td>
+                        <td>WC18MBAU-E03 </td>
+                        <td>WC18AU-E03-D02</td>
+                        <td></td>
+                        <td></td>
+                        <td>416</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.03</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>22</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>WC18AU </td>
+                        <td>WC18MBAU-E04 </td>
+                        <td>WC18AU-E04-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>162</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.0197</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>23</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>WC18AU </td>
+                        <td>WC18MBAU-E05 </td>
+                        <td>WC18AU-E05-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>112</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.017</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>24</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-STS-E00003 </td>
+                        <td>WC18AU-B08-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>294</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.0201</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>25</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>Pilot 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-SNP-E00001 </td>
+                        <td>WC18AU-B09-D02</td>
+                        <td></td>
+                        <td></td>
+                        <td>260</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.0234</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>26</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-SNP-E00002 </td>
+                        <td>WC18MSAU-B01-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>212</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.0131</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>27</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-SNP-E00003 </td>
+                        <td>BW18MSAH-B01-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>800</td>
+                        <td>2</td>
+                        <td> </td>
+                        <td>0.0391</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>28</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-SNP-E00004 </td>
+                        <td>BW18PVAH-B03-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>463</td>
+                        <td>3</td>
+                        <td> </td>
+                        <td>0.0656</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>29</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-SNP-E00005 </td>
+                        <td>BW18PVAO-B01-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>122</td>
+                        <td>2</td>
+                        <td> </td>
+                        <td>0.0068</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>30</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WINTK-E00001-ON17740 </td>
+                        <td>DW18AC-B01-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>1488</td>
+                        <td>10</td>
+                        <td> </td>
+                        <td>0.124</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>31</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-SNP-E00006 </td>
+                        <td>DW18AC-E03-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>200</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.056</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>32</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WINTK-E00002-ON18078 </td>
+                        <td>DW18AC-B04-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>8463</td>
+                        <td>10</td>
+                        <td> </td>
+                        <td>0.591</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>33</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WINTK-E00003-ON18729 </td>
+                        <td>DW18AC-E08-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>2604</td>
+                        <td>10</td>
+                        <td> </td>
+                        <td>0.187</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>34</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-STS-E00004 </td>
+                        <td>WC18MSAU-B04-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>296</td>
+                        <td>2</td>
+                        <td> </td>
+                        <td>0.008</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>35</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-SNP-E00007 </td>
+                        <td>WC18MSAU-B04-D02</td>
+                        <td></td>
+                        <td></td>
+                        <td>296</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.008</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>36</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-STS-E00005 </td>
+                        <td>WC18MSAU-B03-D01</td>
+                        <td></td>
+                        <td></td>
+                        <td>347</td>
+                        <td>1</td>
+                        <td> </td>
+                        <td>0.001</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>37</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-STS-E00006 </td>
+                        <td>BW18PVAH-B01-D02</td>
+                        <td></td>
+                        <td></td>
+                        <td>1919</td>
+                        <td>5</td>
+                        <td> </td>
+                        <td>0.062</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>38</td>
+                        <td>Wheat</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.5</td>
+                        <td>1.5</td>
+                        <td>CIMMYT_WGD </td>
+                        <td>WMBL-STS-E00006 </td>
+                        <td>BW18PVAH-B01-D03</td>
+                        <td></td>
+                        <td></td>
+                        <td>1919</td>
+                        <td>2</td>
+                        <td> </td>
+                        <td>0.051</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>39</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>HP17MVDB </td>
+                        <td>HP17MVDB-E02-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>1576</td>
+                        <td>25</td>
+                        <td> </td>
+                        <td>0.177</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>40</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA17YYDB </td>
+                        <td>CA17YYDB-E01-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>22</td>
+                        <td>1140</td>
+                        <td> </td>
+                        <td>0.113</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>41</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA18QTDB </td>
+                        <td>CA18QTDB-E01-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>190</td>
+                        <td>158</td>
+                        <td> </td>
+                        <td>0.12</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>42</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA17MVDB </td>
+                        <td>CA17MVDB-E01-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>114</td>
+                        <td>27</td>
+                        <td> </td>
+                        <td>0.014</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>43</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA16GSDB </td>
+                        <td>CA16GSDB-E01-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>1520</td>
+                        <td>421</td>
+                        <td> </td>
+                        <td>2.5</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>44</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA16GSDB </td>
+                        <td>CA16GSDB-E02-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>1520</td>
+                        <td>441</td>
+                        <td> </td>
+                        <td>2.6</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>45</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA17MVDB </td>
+                        <td>CA17MVDB-E02-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>1125</td>
+                        <td>21</td>
+                        <td> </td>
+                        <td>0.105</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>46</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA16MVDB </td>
+                        <td>CA16MVDB-E01-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>169</td>
+                        <td>12</td>
+                        <td> </td>
+                        <td>0.011</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>47</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA17QTDB </td>
+                        <td>CA17QTDB-E03-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>426</td>
+                        <td>82</td>
+                        <td> </td>
+                        <td>0.139</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>48</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA17QTDB </td>
+                        <td>CA17QTDB-E02-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>426</td>
+                        <td>24</td>
+                        <td> </td>
+                        <td>0.049</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>49</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CA17QTDB </td>
+                        <td>CA17QTDB-E01-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>426</td>
+                        <td>195</td>
+                        <td> </td>
+                        <td>0.33</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>50</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CK18DT </td>
+                        <td>CK18MBDT-E02-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>2992</td>
+                        <td>10</td>
+                        <td> </td>
+                        <td>0.307</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>51</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CK18MSYY </td>
+                        <td>CK18MSYY-E02-D01 </td>
+                        <td>KASP</td>
+                        <td></td>
+                        <td></td>
+                        <td>3915</td>
+                        <td>2</td>
+                        <td> </td>
+                        <td>0.352</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>52</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CK18GSBY </td>
+                        <td>CK18GSBY-E02-D02-CL </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>2895</td>
+                        <td>8710</td>
+                        <td> </td>
+                        <td>51.8</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>53</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test 1.4</td>
+                        <td>1.4</td>
+                        <td>CK18GSBY </td>
+                        <td>CK18GSBY-E02-D01 </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>3049</td>
+                        <td>8710</td>
+                        <td> </td>
+                        <td>54.4</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>54</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop25_6x1119-D20 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>182</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>392.9</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>55</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop24_6x1114-D19 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>184</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>396.6</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>56</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop23_6x1122-D18 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>164</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>358.5</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>57</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop22_6x1121-D17 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>183</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>394.8</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>58</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop21_6x1120-D16 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>174</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>377.6</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>59</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop20_6x1118-D15 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>152</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>335.4</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>60</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop19_6x1117-D14 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>128</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>289.6</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>61</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop18_6x1116-D13 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>184</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>396.8</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>62</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop17_6x1115-D12 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>182</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>392.8</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>63</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop16_6x1028-D11 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>172</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>373.7</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>64</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop15_6x1023-D10 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>183</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>394.8</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>65</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop14_6x1021-D09 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>190</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>408.2</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>66</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop13_6x1020-D08 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>188</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>404.3</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>67</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop12_6x1019-D07 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>191</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>410</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>68</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop11_6x1018-D06 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>189</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>406.3</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>69</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop10_6x1017-D05 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>189</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>406.3</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>70</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop09_6x1016-D04 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>188</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>404.4</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>71</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop08_6x1015-D03 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>190</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>408.2</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>72</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>test1.4</td>
+                        <td>1.4</td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA-Pop07_6x1008-D02 </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>189</td>
+                        <td>955690</td>
+                        <td> </td>
+                        <td>406.3</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>73</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>TEST</td>
+                        <td></td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E02-GbS-WEMA </td>
+                        <td>WEMA-GbS</td>
+                        <td></td>
+                        <td></td>
+                        <td>1920</td>
+                        <td>3765524</td>
+                        <td> </td>
+                        <td>28.78</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>74</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>TEST</td>
+                        <td></td>
+                        <td>CGHDZZYY </td>
+                        <td>CGHDZZYY-E01-GbS-BREAD </td>
+                        <td>BREAD-GbsS</td>
+                        <td></td>
+                        <td></td>
+                        <td>2400</td>
+                        <td>3767755</td>
+                        <td> </td>
+                        <td>35.43</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>75</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>CA17GSDB </td>
+                        <td>B01 </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>1523</td>
+                        <td>8335</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>76</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td> </td>
+                        <td> </td>
+                        <td>CML</td>
+                        <td></td>
+                        <td></td>
+                        <td>549</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>1.6</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>77</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.1.0 Pilot/Test</td>
+                        <td>1.1</td>
+                        <td>CL17GSDY </td>
+                        <td>B01 </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>2928</td>
+                        <td>8862</td>
+                        <td> </td>
+                        <td>60</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>78</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.1.0Pilot/Test</td>
+                        <td>1.1</td>
+                        <td>CK17GSBY </td>
+                        <td>B01 </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>3072</td>
+                        <td>8733</td>
+                        <td> </td>
+                        <td>53.3</td>
+                        <td></td>
+                        <td>4/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q2</td>
+                        </tr>
+
+                        <tr>
+                        <td>79</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.4TEST</td>
+                        <td>1.4</td>
+                        <td>CK17GSBY </td>
+                        <td>B01-CL </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>2777</td>
+                        <td>8733</td>
+                        <td> </td>
+                        <td>48.7</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>80</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.1.0Pilot/Test</td>
+                        <td>1.1</td>
+                        <td>CK17GSBY </td>
+                        <td>B02 </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>3022</td>
+                        <td>4657</td>
+                        <td> </td>
+                        <td>28.3</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>81</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.4TEST</td>
+                        <td>1.4</td>
+                        <td>CK17GSBY </td>
+                        <td>B02-CL </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>2836</td>
+                        <td>4657</td>
+                        <td> </td>
+                        <td>26.6</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>82</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.1.0 Test</td>
+                        <td>1.1</td>
+                        <td>CL17GSDY </td>
+                        <td>B02 </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>4897</td>
+                        <td>7683</td>
+                        <td> </td>
+                        <td>47</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>83</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>CL17GSDY </td>
+                        <td>B03 </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>7969</td>
+                        <td>7595</td>
+                        <td> </td>
+                        <td>120.7</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>84</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>CK17MSBC </td>
+                        <td>B01 </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>85</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.1.0 Pilot/Test</td>
+                        <td>1.1</td>
+                        <td>SD11GSSH </td>
+                        <td>B01 </td>
+                        <td>GBS_Apeki</td>
+                        <td></td>
+                        <td></td>
+                        <td>4846</td>
+                        <td>955120</td>
+                        <td> </td>
+                        <td>9.3</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>86</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.3 Test</td>
+                        <td>1.3</td>
+                        <td>CA16MVDB </td>
+                        <td>B02 </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>87</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.3 Test</td>
+                        <td>1.3</td>
+                        <td>CA16ZZDB </td>
+                        <td>B03 </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1506</td>
+                        <td>50</td>
+                        <td> </td>
+                        <td>348</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>88</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td>1.3 Test</td>
+                        <td>1.3</td>
+                        <td>HP17MVDB </td>
+                        <td>B01 </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>191</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>89</td>
+                        <td>Maize</td>
+                        <td></td>
+                        <td>CIMMYT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>CA17GSDB </td>
+                        <td>B01 </td>
+                        <td>rAmpSeq</td>
+                        <td></td>
+                        <td></td>
+                        <td>1225</td>
+                        <td>7594</td>
+                        <td> </td>
+                        <td>20.6</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>90</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>2016-9_GSL-INF_SHECANOVA </td>
+                        <td>2016-9_GSL-INF_SHECANOVA </td>
+                        <td>2016-9_GSL-INF_SHECANOVA</td>
+                        <td></td>
+                        <td></td>
+                        <td>282</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>4</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>91</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>2016-19_GSL-INF_SHOBA </td>
+                        <td>2016-19_GSL-INF_SHOBA </td>
+                        <td>2016-19_GSL-INF_SHOBA</td>
+                        <td></td>
+                        <td></td>
+                        <td>399</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>92</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>2016-20_GSL-INF_ETANDAYU </td>
+                        <td>2016-20_GSL-INF_ETANDAYU </td>
+                        <td>2016-20_GSL-INF_ETANDAYU</td>
+                        <td></td>
+                        <td></td>
+                        <td>71</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>93</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>2016-25_GSL-INF_MSWAMY </td>
+                        <td>2016-25_GSL-INF_MSWAMY </td>
+                        <td>2016-25_GSL-INF_MSWAMY</td>
+                        <td></td>
+                        <td></td>
+                        <td>185</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>2.4</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>94</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>2016-26_GSL-INF_MARCETA </td>
+                        <td>2016-26_GSL-INF_MARCETA </td>
+                        <td>2016-26_GSL-INF_MARCETA</td>
+                        <td></td>
+                        <td></td>
+                        <td>185</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>95</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>2015-9-GSL-INF_TISHIMARU </td>
+                        <td>2015-9-GSL-INF_TISHIMARU </td>
+                        <td>2015-9-GSL-INF_TISHIMARU</td>
+                        <td></td>
+                        <td></td>
+                        <td>144</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>2.1</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>96</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>2015-10-GSL-INF_GCARINO </td>
+                        <td>2015-10-GSL-INF_GCARINO </td>
+                        <td>2015-10-GSL-INF_GCARINO</td>
+                        <td></td>
+                        <td></td>
+                        <td>70</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>9.7</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>97</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>AMALIJANP1_INFPLATE14 </td>
+                        <td>AMALIJANP1_INFPLATE14 </td>
+                        <td>AMALIJANP1_INFPLATE14</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>98</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>AMALIJANP2_INFPLATE13 </td>
+                        <td>AMALIJANP2_INFPLATE13 </td>
+                        <td>AMALIJANP2_INFPLATE13</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>99</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>CCONCEPCIONP1_INFPLATE21 </td>
+                        <td>CCONCEPCIONP1_INFPLATE21 </td>
+                        <td>CCONCEPCIONP1_INFPLATE21</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>100</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>CCONCEPCIONP2_INFPLATE22 </td>
+                        <td>CCONCEPCIONP2_INFPLATE22 </td>
+                        <td>CCONCEPCIONP2_INFPLATE22</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>101</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>CCONCEPCIONP3_INFPLATE23 </td>
+                        <td>CCONCEPCIONP3_INFPLATE23 </td>
+                        <td>CCONCEPCIONP3_INFPLATE23</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>102</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>CCONCEPCIONP4_INFPLATE24 </td>
+                        <td>CCONCEPCIONP4_INFPLATE24 </td>
+                        <td>CCONCEPCIONP4_INFPLATE24</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>103</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>CorinneP1_INFPLATE32 </td>
+                        <td>CorinneP1_INFPLATE32 </td>
+                        <td>CorinneP1_INFPLATE32</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>104</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>CorinneP2_INFPLATE33 </td>
+                        <td>CorinneP2_INFPLATE33 </td>
+                        <td>CorinneP2_INFPLATE33</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>105</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>CorinneP3_InfPlate30 </td>
+                        <td>CorinneP3_InfPlate30 </td>
+                        <td>CorinneP3_InfPlate30</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>106</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1</td>
+                        <td>1.1</td>
+                        <td>CorinneP4_INFPLATE31 </td>
+                        <td>CorinneP4_INFPLATE31 </td>
+                        <td>CorinneP4_INFPLATE31</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>107</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.1/1.3</td>
+                        <td>1.1/1.3</td>
+                        <td>NSandhu_GBS_exp </td>
+                        <td>NSandhu_GBS_ds1 </td>
+                        <td>NSandhu_GBS</td>
+                        <td></td>
+                        <td></td>
+                        <td>95</td>
+                        <td>814202</td>
+                        <td> </td>
+                        <td>184</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>108</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.3</td>
+                        <td>1.3</td>
+                        <td>2017-3_INF_JJEONG </td>
+                        <td>2017-3_INF_JJEONG </td>
+                        <td>2017-3_INF_JJEONG</td>
+                        <td></td>
+                        <td></td>
+                        <td>23</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>109</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.3</td>
+                        <td>1.3</td>
+                        <td>2016-31_INF_SHECHANOVA </td>
+                        <td>2016-31_INF_SHECHANOVA </td>
+                        <td>2016-31_INF_SHECHANOVA</td>
+                        <td></td>
+                        <td></td>
+                        <td>94</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>110</td>
+                        <td>Rice</td>
+                        <td></td>
+                        <td>IRRI</td>
+                        <td></td>
+                        <td>1.3</td>
+                        <td>1.3</td>
+                        <td>2016-28_GSL-INF_PSENADHEERA </td>
+                        <td>2016-28_GSL-INF_PSENADHEERA </td>
+                        <td>2016-28_GSL-INF_PSENADHEERA</td>
+                        <td></td>
+                        <td></td>
+                        <td>165</td>
+                        <td>4606</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td>1/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>111</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 12 PAT NSF (GY) </td>
+                        <td>Population 13 GWAS (GY) GBS </td>
+                        <td>DS 13 L571 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>571</td>
+                        <td>516734</td>
+                        <td> </td>
+                        <td>69</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>112</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 12 PAT GCP (GY) </td>
+                        <td>Population 13 LD (GY) SSR </td>
+                        <td>DS 13 L3367 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>3365</td>
+                        <td>41</td>
+                        <td> </td>
+                        <td>1.1</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>113</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 12 PAT NSF (GY) </td>
+                        <td>Population 13 LD (GY) GBS </td>
+                        <td>DS 13 L244 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>244</td>
+                        <td>557272</td>
+                        <td> </td>
+                        <td>284</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>114</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 08 PAT SFEF (GM) </td>
+                        <td>Population 09 DIV (GM) SSR </td>
+                        <td>DS 10 L93 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>93</td>
+                        <td>44</td>
+                        <td> </td>
+                        <td>0.034</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>115</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 15 PAT NSF (Shootfly Resistance) </td>
+                        <td>RIL 14 LM (Shootfly Resistance) GBS </td>
+                        <td>DS 16 L250 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>250</td>
+                        <td>533857</td>
+                        <td> </td>
+                        <td>277</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>116</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 15 PAT (BMZ-GTZ BBSRC) (Staygreen Post flowering drought tolerance) </td>
+                        <td>RIL 15 LM (PFDT/STG) GBS </td>
+                        <td>DS 16 L182 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>182</td>
+                        <td>527118</td>
+                        <td> </td>
+                        <td>207</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>117</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 15 PAT (ADB CGIAR) (Stem borer resistnace) </td>
+                        <td>RIL 15 LM ((Stem borer resistnace) GBS </td>
+                        <td>DS 16 L266 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>266</td>
+                        <td>542454</td>
+                        <td> </td>
+                        <td>304</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>118</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 16 PAT USAID (BNI) </td>
+                        <td>RIL 16 LM (BNI) GBS </td>
+                        <td>DS 17 L340 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>340</td>
+                        <td>539274</td>
+                        <td> </td>
+                        <td>375</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>119</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 15 PAT NSF (Grainmold Resistance) </td>
+                        <td>RIL 14 LM (Grainmold Resistance) GBS </td>
+                        <td>DS 16 L784 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>784</td>
+                        <td>552363</td>
+                        <td> </td>
+                        <td>857</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>120</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 16 PAT (CGIAR-ICRISAT) (Grain mold resistance) </td>
+                        <td>RIL 15 LM (GMR) GBS </td>
+                        <td>DS 16 L959 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>959</td>
+                        <td>551225</td>
+                        <td> </td>
+                        <td>1045</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>121</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 17 PAT CGIAR-ICRISAT (Shootfly Resistance Stem Borer Resistance Aphid Resistance) </td>
+                        <td>Population 17 GWAS (Shootfly Resistance Stem Borer Resistance Aphid Resistance) GBS </td>
+                        <td>DS 18 L102 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>102</td>
+                        <td>191011</td>
+                        <td> </td>
+                        <td>45.85</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>122</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 17 PAT CRP-DC (GY) </td>
+                        <td>Population 17 GWAS (GY) GBS </td>
+                        <td>DS 18 L205 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>205</td>
+                        <td>317279</td>
+                        <td> </td>
+                        <td>138</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>123</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test</td>
+                        <td></td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) SSR_PVK260 </td>
+                        <td>DS 14 L181 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>181</td>
+                        <td>11</td>
+                        <td> </td>
+                        <td>0.02</td>
+                        <td></td>
+                        <td>10/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>124</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test</td>
+                        <td></td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) KASP_PVK260 </td>
+                        <td>DS 14 L181 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>181</td>
+                        <td>35</td>
+                        <td> </td>
+                        <td>0.02</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>125</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test</td>
+                        <td></td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) SSR_PVK359 </td>
+                        <td>DS 14 L552 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>552</td>
+                        <td>13</td>
+                        <td> </td>
+                        <td>0.07</td>
+                        <td></td>
+                        <td>10/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>126</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test</td>
+                        <td></td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) KASP_PVK359 </td>
+                        <td>DS 14 L552 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>552</td>
+                        <td>35</td>
+                        <td> </td>
+                        <td>0.07</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>127</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test</td>
+                        <td></td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) SSR_CRS1xK359w </td>
+                        <td>DS 14 L311 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>311</td>
+                        <td>12</td>
+                        <td> </td>
+                        <td>0.04</td>
+                        <td></td>
+                        <td>10/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>128</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test v2.0</td>
+                        <td>2</td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) KASP_CRS1xK359w </td>
+                        <td>DS 14 L311 CA 02</td>
+                        <td></td>
+                        <td></td>
+                        <td>311</td>
+                        <td>35</td>
+                        <td> </td>
+                        <td>0.04</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>129</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test</td>
+                        <td></td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) SSR_M35-1xK359w </td>
+                        <td>DS 14 L360 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>360</td>
+                        <td>11</td>
+                        <td> </td>
+                        <td>0.04</td>
+                        <td></td>
+                        <td>10/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>130</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test v2.0</td>
+                        <td>2</td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) KASP_M35-1xK359w </td>
+                        <td>DS 14 L183 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>360</td>
+                        <td>35</td>
+                        <td> </td>
+                        <td>0.04</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>131</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test</td>
+                        <td></td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) SSR_PMxK260 </td>
+                        <td>DS 14 L13 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>13</td>
+                        <td>16</td>
+                        <td> </td>
+                        <td>0.004</td>
+                        <td></td>
+                        <td>10/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>132</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test v2.0</td>
+                        <td>2</td>
+                        <td>PS 11 PAT ACIAR (DT TE WUE) </td>
+                        <td>BC3F2 14 MABC (DT TE WUE) KASP_PMxK260 </td>
+                        <td>DS 14 L13 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>13</td>
+                        <td>35</td>
+                        <td> </td>
+                        <td>0.002</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>133</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 15 PAT ADB (SFR) </td>
+                        <td>RIL 15 LM (SFR) GBS </td>
+                        <td>DS 15 L212 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>212</td>
+                        <td>37245</td>
+                        <td> </td>
+                        <td>16.7</td>
+                        <td></td>
+                        <td>10/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>134</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PS 16 PAT SFEF (SBR) </td>
+                        <td>RIL 16 LM (SBR) GBS </td>
+                        <td>DS 16 L330 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>330</td>
+                        <td>292960</td>
+                        <td> </td>
+                        <td>197</td>
+                        <td></td>
+                        <td>10/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>135</td>
+                        <td>Sorghum</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>PS 16 PAT ADB (PFDT STRIGA) </td>
+                        <td>RIL 16 LM (PFDT STRIGA) GBS </td>
+                        <td>DS 16 L130 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>136</td>
+                        <td>Pearl Millet</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Test v2.0</td>
+                        <td>2</td>
+                        <td>PM 13 PAT BMGF (MUL) </td>
+                        <td>Association_panel 13 WGRS (MUL) Reseqeuncing </td>
+                        <td>DM 14 L343 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>343</td>
+                        <td>32901675</td>
+                        <td> </td>
+                        <td>22938</td>
+                        <td></td>
+                        <td>1/15/19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2019 Q1</td>
+                        </tr>
+
+                        <tr>
+                        <td>137</td>
+                        <td>Groundnut</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>PG 17 PAT BMGF (HOA FDR) </td>
+                        <td>BC1F3 17 (MABC MARS) (HOA FDR) KASP Postrainy </td>
+                        <td>DG 18 L348 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>138</td>
+                        <td>Groundnut</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>PG 17 PAT BMGF (HOA FDR) </td>
+                        <td>BC2F2 17 (MABC MARS) (HOA FDR) KASP Postrainy </td>
+                        <td>DG 18 L195 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>139</td>
+                        <td>Groundnut</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>PG 17 PAT BMGF (HOA FDR) </td>
+                        <td>BC2F2 17 (MABC MARS) (HOA FDR) KASP Rainy </td>
+                        <td>DG 18 L380 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>140</td>
+                        <td>Groundnut</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>PG 17 PAT BMGF (HOA FDR) </td>
+                        <td>BC2F3 17 (MABC MARS) (HOA FDR) KASP Rainy </td>
+                        <td>DG 18 L173 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>141</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT BMGF (DF DM SDW SY) </td>
+                        <td>ABL 15 GS (DF DM SDW SY) GBS </td>
+                        <td>DS 15 L320 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>320</td>
+                        <td>83948</td>
+                        <td> </td>
+                        <td>58.3</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>142</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT BMGF (DF DM SDW SY) </td>
+                        <td>ABL 12 GS (DF DM SDW SY) Dartseq_snps </td>
+                        <td>DS 12 L317 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>317</td>
+                        <td>1684</td>
+                        <td> </td>
+                        <td>1.3</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>143</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT BMGF (DF DM SDW SY) </td>
+                        <td>ABL 12 GS (DF DM SDW SY) Silico_DArT </td>
+                        <td>DS 12 L317 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>317</td>
+                        <td>1432</td>
+                        <td> </td>
+                        <td>1.1</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>144</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT (BMGF DST) (DT) </td>
+                        <td>RIL 13 FM (DT) GBS </td>
+                        <td>DS 15 L210 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>210</td>
+                        <td>764</td>
+                        <td> </td>
+                        <td>0.4</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>145</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT (BMGF DST) (DT) </td>
+                        <td>RIL 13 QTL (DT) Skim </td>
+                        <td>DS 14 L222 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>222</td>
+                        <td>53170</td>
+                        <td> </td>
+                        <td>25</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>146</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 14 PAT CRP-GL (DT HT FW) </td>
+                        <td>Inbred_line 14 SNP (DT HT FW) WGRS </td>
+                        <td>DS 15 L35 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>35</td>
+                        <td>2344199</td>
+                        <td> </td>
+                        <td>2110</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>147</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 15 PAT (BMGF DACFW) (DT) </td>
+                        <td>Population 15 (GWAS DIV) WGRS </td>
+                        <td>DS 15 L29 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>29</td>
+                        <td>1057556</td>
+                        <td> </td>
+                        <td>899</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>148</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 15 PAT (BMGF DACFW) (DT) </td>
+                        <td>Population 15 (GWAS DIV) WGRS </td>
+                        <td>DS 15 L100 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>100</td>
+                        <td>1724381</td>
+                        <td> </td>
+                        <td>13312</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>149</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 15 PAT (BMGF DACFW) (DT) </td>
+                        <td>Population 15 (GWAS DIV) WGRS </td>
+                        <td>DS 15 L300 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>300</td>
+                        <td>3615249</td>
+                        <td> </td>
+                        <td>13312</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>150</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 15 PAT (BMGF DACFW) (DT) Desi </td>
+                        <td>RIL 15 QTL Axiom </td>
+                        <td>DS 16 L231 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>231</td>
+                        <td>50590</td>
+                        <td> </td>
+                        <td>34</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>151</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 15 PAT (BMGF DACFW) (DT) Kabuli </td>
+                        <td>RIL 15 QTL Axiom </td>
+                        <td>DS 16 L210 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>210</td>
+                        <td>50590</td>
+                        <td> </td>
+                        <td>31</td>
+                        <td></td>
+                        <td>10/15/17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2017 Q4</td>
+                        </tr>
+
+                        <tr>
+                        <td>152</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT (DST GCP) (MUL) </td>
+                        <td>Inbred_line 12 DIV (MUL) DArT </td>
+                        <td>DS 12 L93 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>93</td>
+                        <td>5257</td>
+                        <td> </td>
+                        <td>1.84</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>153</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT (DST GCP) (MUL) </td>
+                        <td>Inbred_line 12 DIV (MUL) KASP </td>
+                        <td>DS 12 L96 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>96</td>
+                        <td>651</td>
+                        <td> </td>
+                        <td>0.22</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>154</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 10 PAT (BMGF DBT GCP) (MUL) 01 </td>
+                        <td>RIL 10 MAPPING (MUL) KASP </td>
+                        <td>DS 10 L131 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>131</td>
+                        <td>651</td>
+                        <td> </td>
+                        <td>0.17</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>155</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 10 PAT (BMGF DBT GCP) (MUL) 02 </td>
+                        <td>Inbred_line 10 DIV (MUL) KASP </td>
+                        <td>DS 10 L58 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>58</td>
+                        <td>1341</td>
+                        <td> </td>
+                        <td>0.31</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>156</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Can't be loaded</td>
+                        <td></td>
+                        <td>PC 08 PAT GCP (MUL) </td>
+                        <td>Population 08 DIV (MUL) SSR </td>
+                        <td>DS 08 L2999 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>2999</td>
+                        <td>35</td>
+                        <td> </td>
+                        <td>3.07</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>157</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT BMGF (DF DM SDW SY) </td>
+                        <td>ABL 16 GS (DF DM SDW SY) Affymetrix_Axiom </td>
+                        <td>DS 17 L317 CA 02</td>
+                        <td></td>
+                        <td></td>
+                        <td>317</td>
+                        <td>50590</td>
+                        <td> </td>
+                        <td>49.6</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>158</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 13 PAT BMGF (DT HT) </td>
+                        <td>Population 13 GWAS (DT HT) Dart_clone </td>
+                        <td>DS 14 L287 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>287</td>
+                        <td>1157</td>
+                        <td> </td>
+                        <td>0.92</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>159</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 08 PAT GCP (Helicovarpa) </td>
+                        <td>RIL 09 LM (Helicovarpa) SSR </td>
+                        <td>DS 09 L133 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>133</td>
+                        <td>670</td>
+                        <td> </td>
+                        <td>0.18</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>160</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Can't be loaded</td>
+                        <td></td>
+                        <td>PC 08 PAT GCP (Helicovarpa) </td>
+                        <td>RIL 09 LM (Helicovarpa) DArT </td>
+                        <td>DS 09 L133 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>133</td>
+                        <td>623</td>
+                        <td> </td>
+                        <td>0.17</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>161</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 08 PAT GCP (Helicovarpa) </td>
+                        <td>RIL 08 LM (Helicovarpa) SSR </td>
+                        <td>DS 09 L133 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>133</td>
+                        <td>521</td>
+                        <td> </td>
+                        <td>0.14</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>162</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT (BMGF GCP) DT 01 </td>
+                        <td>RIL 12 LM (DT) SSR </td>
+                        <td>DS 13 L236 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>236</td>
+                        <td>161</td>
+                        <td> </td>
+                        <td>0.08</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>163</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Can't be loaded</td>
+                        <td></td>
+                        <td>PC 12 PAT (BMGF GCP) DT 01 </td>
+                        <td>RIL 12 LM (DT) DArT </td>
+                        <td>DS 13 L236 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>236</td>
+                        <td>7</td>
+                        <td> </td>
+                        <td>0.009</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                        <tr>
+                        <td>164</td>
+                        <td>Chickpea</td>
+                        <td></td>
+                        <td>ICRISAT</td>
+                        <td></td>
+                        <td>Production</td>
+                        <td></td>
+                        <td>PC 12 PAT (BMGF GCP) DT 02 </td>
+                        <td>RIL 12 LM (DT) SSR </td>
+                        <td>DS 13 L232 CA 01</td>
+                        <td></td>
+                        <td></td>
+                        <td>232</td>
+                        <td>220</td>
+                        <td> </td>
+                        <td>0.1</td>
+                        <td></td>
+                        <td>7/15/18</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>2018 Q3</td>
+                        </tr>
+
+                        <tr>
+                        <td>165</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Can't be loaded</td>
+                        <td></td>
+                        <td> </td>
+                        <td>RIL 12 LM (DT) DArT </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td> </td>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                        <th>ID</th>
+                        <th>Crops</th>
+                        <th>Other Crop</th>
+                        <th>Institution</th>
+                        <th>Other Institution</th>
+                        <th>Environment</th>
+                        <th>Release Version</th>
+                        <th>Project Name</th>
+                        <th>Experiment Name</th>
+                        <th>Dataset Name</th>
+                        <th>Dataset Status</th>
+                        <th>Comment</th>
+                        <th>Number Samples</th>
+                        <th>Number Makers</th>
+                        <th>Dataset Matrix Loaded</th>
+                        <th>Matrix Size</th>
+                        <th>Date Return Vendor</th>
+                        <th>Date Loaded</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Date Submitted</th>
+                        <th>Year Quarter</th>
+                        </tr>
+                    </tfoot>
+</table>
+            </div>
+       <br><br><br><br><br>
+</div>
+<div class="footer">
+    <p class="text-center">GOBII © 2019</p> 
+                   
+</div> 
+<script>
+$(document).ready(function() {
+    $('#gobii_data').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+             'csv', 'excel'
+        ]
+    } );
+} );
+</script>
+</body>
+
+</html>
+
